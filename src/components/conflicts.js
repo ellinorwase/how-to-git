@@ -5,7 +5,7 @@ export class conflicts extends Component {
     render() {
         return (
             <div>
-                fdsafsd
+                Konflikter
                 
             </div>
         )
