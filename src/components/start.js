@@ -34,7 +34,7 @@ export class start extends Component {
           <h3>A</h3>
           <h3>?</h3>
         </div>
-        <Logo className="dotts" />
+        <Logo className="dots" />
         <Line1 className="line1" />
         <Line2 />
       </div>
