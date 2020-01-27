@@ -1,6 +1,8 @@
 .menu{
     margin-left: 40px;
     margin-top: 40px;
+    position: absolute;
+    z-index: 10;
 }
 ul{
     padding: 0px;
@@ -17,4 +19,18 @@ ul{
     text-decoration: none;
     list-style-type: none;
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu{
+        margin-left: 10px;
+        margin-top: 40px;
+        position: relative;
+        z-index: 10;
+    }
+    .menu>ul>li{
+        font-size: 100%;
+        text-align: center;
+    }
 }
