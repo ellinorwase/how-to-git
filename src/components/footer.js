@@ -5,14 +5,8 @@ export class footer extends Component {
     render() {
         return (
 
-                <footer className="page-footer">
-          <div className="container">
-            <div className="row">
-              <div className="col l6 s12">
-                <h5 className="white-text">Git på Svenska</h5>
-                <p className="grey-text text-lighten-4">Vill du lära dig mer? Klicka på länkarna brevid</p>
-
-                <footer class="page-footer">
+                
+            <footer class="page-footer">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -41,8 +35,8 @@ export class footer extends Component {
           </div>
         </footer>
             
-            </div>
-        )
+        )   
+        
     }
 }
 
