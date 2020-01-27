@@ -36,7 +36,7 @@ export class start extends Component {
         </div>
         <Logo className="dots" />
         <Line1 className="line1" />
-        <Line2 />
+        {/* <Line2 className="line2"/> */}
       </div>
     );
   }
