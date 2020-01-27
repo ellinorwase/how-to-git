@@ -1,5 +1,6 @@
 .description{
     text-align: center;
-    margin: 50px;
+    /* margin: 50px; */
     height: 100vh;
+    border: 2px solid black;
 }
