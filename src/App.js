@@ -14,9 +14,10 @@ function App() {
         
       <Menu/>
 
-      <Footer />
 
       <Start/>
+
+      <Footer />
 
     </div>
   );
