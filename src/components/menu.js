@@ -17,7 +17,7 @@ export class menu extends Component {
             <a href="./conflicts">Konflikter</a>
           </li>
           <li>
-            <a href="">Quiz</a>
+            <a href="./">Quiz</a>
           </li>
         </ul>
       </div>
