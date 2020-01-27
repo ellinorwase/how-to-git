@@ -5,9 +5,11 @@ export class menu extends Component {
         return (
             <div>
                 <ul>
-                    <li><a>Start</a></li>
-                    <li><a>Kommandon</a></li>
-                    <li><a>Quiz</a></li>
+                    <li><a href="google.com">Start</a></li>
+                    <li><a href="./commands" >Kommandon</a></li>
+                    <li><a href="./conflicts" >konflikter</a></li>
+                    <li><a href="">Quiz</a></li>
+                    
                 </ul>
                 
             </div>
