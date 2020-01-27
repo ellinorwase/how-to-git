@@ -1,0 +1,20 @@
+.menu{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+ul{
+    padding: 0px;
+}
+
+.menu>ul>li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Arapey', serif;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
