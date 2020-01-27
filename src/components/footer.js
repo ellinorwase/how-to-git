@@ -10,7 +10,7 @@ export class footer extends Component {
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Git på Svenska</h5>
-                <p class="grey-text text-lighten-4">Vill du lära dig mer? Klicka på länkarna brevid förfan</p>
+                <p class="grey-text text-lighten-4">Vill du lära dig mer? Klicka på länkarna brevid</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Bra länkar</h5>
