@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import Start from './components/start'
 import Commands from './components/commands'
 import Conflicts from './components/conflicts'
+import Description from './components/description'
 
 
 function App() {
@@ -17,11 +18,15 @@ function App() {
 
       <Start/>
 
+      <Description />
+
       <Commands />
       
       <Conflicts />
 
+
       <Footer />
+
 
     </div>
   );
