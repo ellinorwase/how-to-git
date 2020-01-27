@@ -6,7 +6,7 @@ export class commands extends Component {
     render() {
         return (
             <div className='wrapper3'>
-                dfaf
+                <h2>Kommandon</h2>
             </div>
         )
     }
