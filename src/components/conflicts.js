@@ -4,9 +4,8 @@ import '../css/conflicts.css'
 export class conflicts extends Component {
     render() {
         return (
-            <div>
-                Konflikter
-                
+            <div className="conflicts">
+                <h2>Konflikter</h2>
             </div>
         )
     }
