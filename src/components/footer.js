@@ -4,7 +4,7 @@ import '../css/footer.css'
 export class footer extends Component {
     render() {
         return (
-            <div>
+            <div className="b-0">
                 <footer class="page-footer">
           <div class="container">
             <div class="row">

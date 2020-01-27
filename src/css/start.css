@@ -20,6 +20,11 @@
 .line1{
     position: absolute;
     left: -5px;
+    /* z-index: -10; */
+}
+.line2{
+    position: absolute;
+    z-index: -10;
 }
 
 
