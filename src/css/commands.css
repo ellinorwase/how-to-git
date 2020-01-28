@@ -30,3 +30,36 @@
     justify-content: space-between;
    
 }
+
+.com1{
+    display: block;
+    font-size: 20px;
+    border: 2px solid black ;
+    padding: 10px;
+    height:60px;
+    width:300px;
+    margin-left:50px;
+    justify-content: space-between; 
+    
+}
+
+.com2{
+    display:block;
+    font-size: 20px;
+    border: 2px solid black ;
+    padding: 10px;
+    height:60px;
+    width:300px;
+    margin-left:50px;
+  
+}
+
+.com3{
+    display:block;
+    font-size: 20px;
+    border: 2px solid black ;
+    padding: 10px;
+    height:60px;
+    width:300px;
+    margin-left:50px;
+}
