@@ -53,15 +53,6 @@
   margin-right: 0%;
 }
 
-.square1 {
-  height: 140px;
-  width: 170px;
-  background-color: rgba(109, 109, 109, 0.555);
-  position: absolute;
-  right: 28%;
-  top: 12%;
-  transform: rotate(-10deg);
-}
 .square2 {
   height: 250px;
   width: 240px;
