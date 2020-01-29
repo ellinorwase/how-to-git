@@ -19,7 +19,7 @@ function App() {
 
       <Start id="description1"/>
 
-      <Pics/>
+      {/* <Pics/> */}
 
       <Description />
 
