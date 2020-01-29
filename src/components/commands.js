@@ -7,6 +7,7 @@ export class commands extends Component {
         return (
 
             <div className='wrapper1'>
+                     <div id="commands2"></div>
                 <h2>Kommandon</h2>
               
                 <div className='wrapper2'>

@@ -17,7 +17,7 @@ function App() {
 
       <Menu/>
 
-      <Start/>
+      <Start id="description1"/>
 
       <Pics/>
 

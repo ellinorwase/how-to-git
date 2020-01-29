@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, Link } from "react";
 import "../css/menu.css";
+// import { Link } from "react-router-dom";
 
 //rce
 export class menu extends Component {
@@ -8,18 +9,21 @@ export class menu extends Component {
       <div className="menu">
         <ul>
           <li>
-            <a href="google.com">Start</a>
+            <a href="./">Start</a>
           </li>
           <li>
-            <a href="./commands">Kommandon</a>
+            <a href="#description1">Information</a>
           </li>
           <li>
-            <a href="./conflicts">Konflikter</a>
+            <a href="#commands2">Kommandon</a>
+          </li>
+          <li>
+            <a href="#conflicts3">Konflikter</a>
           </li>
           <li>
             <a href="./">Quiz</a>
           </li>
-        </ul>
+        </ul> 
       </div>
     );
   }

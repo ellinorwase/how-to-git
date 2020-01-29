@@ -5,6 +5,7 @@ export class description extends Component {
   render() {
     return (
       <div className="description">
+         <div id="description1"></div>
         <h2>Vad är git?</h2>
         <p>
           Git är ett distribuerat versionshanteringssystem som är skapat av
