@@ -1,14 +1,14 @@
 
 .wrapper1{
     text-align: center;
-    height: 100vh;
+    height: 200vh;
     border: 2px solid black;
   
 }
 
 .wrapper2{
     text-align: center;
-    display: flex;
+    /* display: flex; */
     width: 100%;
    
 }
@@ -16,17 +16,17 @@
 .wrapper3{
     text-align: center;
     display: inline-table;
-    width: 50%;
-    margin:30px;
-    
-  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
 }
 
 .wrapper4{
     text-align: center;
     /* display: flex; */
-    width: 60%;
+    width: 80%;
     margin-right:50px;
+    margin: auto;
     /* justify-content: space-between; */
    
 }
@@ -35,8 +35,8 @@
     display: block;
     font-size: 20px;
     border: 2px solid black ;
-    padding: 10px;
-    height:60px;
+    padding: 8px;
+    height:50px;
     /* margin:10px; */
     width:70%;
     margin: auto;
@@ -49,16 +49,18 @@
 }
 
 .total-sqr{
-    float: right;
-    margin-right: 80%;
-    margin-top: 20%;
-    margin-bottom: 40%;
+    /* float: right; */
+    /* margin-right: 80%; */
+    /* margin-top: 20%; */
+
    
 }
 
 .com-sqr-1{
     width: 300px;
     height: 250px;
+    /* width: 20%;
+    height: 35%; */
     position: absolute; 
     transform: rotate(-20deg);
     background-color: rgba(0, 0, 0, 0.555);
@@ -86,7 +88,9 @@
     width: 200px;
     height: 150px;
     background-color: rgba(194, 189, 189, 0.555); 
-    margin-right: 90px;
+    /* margin-right: 90px; */
+    /* margin-left: -190px; */
+    z-index: 0;
     
 } 
 
@@ -102,17 +106,17 @@
 } 
 
 .transbox{
-    display: block;
-    z-index: -9;
-    opacity: 0,3;
-    background-color: rgb(190, 188, 188);
+    /* display: block;
+    z-index: -9; */
+    /* opacity: 0,3; */
+    /* background-color: rgb(196, 196, 196); */
     font-size: 20px;
     border: 2px solid black ;
     padding: 10px;
     height:200%;
-    width:500%;
+    /* width:500%; */
     margin: auto;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
      margin-top: 40px;
   
     
