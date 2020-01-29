@@ -6,6 +6,7 @@
 }
 ul{
     padding: 0px;
+    position: fixed;
 }
 
 .menu>ul>li{
