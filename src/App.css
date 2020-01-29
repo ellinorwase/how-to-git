@@ -1,3 +1,8 @@
 .App {
   background-color: #fff;
+  /* background-image: url('../src/images/Path2.png'); */
+  background-image: url('../src/images/Path1.svg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  /* background-size: cover; */
 }

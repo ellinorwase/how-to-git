@@ -1,28 +1,29 @@
 import React, { Component } from "react";
 import "../css/description.css";
 
-
 export class description extends Component {
   render() {
     return (
       <div className="description">
-        <h2>Beskrivning</h2>
+        <h2>Vad är git?</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+          Git är ett distribuerat versionshanteringssystem som är skapat av
+          Linus Torvald, som också skapat operativsystemet Linux. Med git så kan
+          utvecklare ladda upp och granska källkod och det finns inget centralt
+          arkiv utan vem som helst kan skapa en egen kopia av ett repository.
+          
         </p>
         <h2>Varför git?</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+        Fördelarna med att ha ett distribuerade system är att alla som
+          använder sig av detta har en helt komplett version av projektets
+          historia vilket minskar chanserna avsevärt att något skulle försvinna.
+          På så sätt kan tidigare versioner av källkod, dokument eller webbsidor
+          återskapas och de tidigare ändringar kan spåras. Det som gör git så
+          bra är också det parallella arbete där man t.ex. kan spåra och rätta
+          de tidigare versionerna samtidigt som man kan vidareutveckla nya
+          versioner. Detta blir väldigt användbart när man sitter i stora team
+          och jobbar på samma saker.
         </p>
       </div>
     );
