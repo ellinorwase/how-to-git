@@ -15,51 +15,38 @@
 
 .wrapper3{
     text-align: center;
-    display: flex;
+    display: inline-table;
     width: 50%;
-    margin-left: 50px;
-    justify-content: space-between;
+    margin:30px;
+    
   
 }
 
 .wrapper4{
     text-align: center;
-    display: flex;
-    width: 50%;
+    /* display: flex; */
+    width: 60%;
     margin-right:50px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
    
 }
 
-.com1{
+.com{
     display: block;
     font-size: 20px;
     border: 2px solid black ;
     padding: 10px;
     height:60px;
-    width:300px;
-    margin-left:50px;
-    justify-content: space-between; 
+    /* margin:10px; */
+    width:70%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* width:300px;
+    margin-left:50px; */
+    
     
 }
 
-.com2{
-    display:block;
-    font-size: 20px;
-    border: 2px solid black ;
-    padding: 10px;
-    height:60px;
-    width:300px;
-    margin-left:50px;
-  
-}
 
-.com3{
-    display:block;
-    font-size: 20px;
-    border: 2px solid black ;
-    padding: 10px;
-    height:60px;
-    width:300px;
-    margin-left:50px;
-}
+
