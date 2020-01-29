@@ -26,6 +26,13 @@ export class description extends Component {
           versioner. Detta blir väldigt användbart när man sitter i stora team
           och jobbar på samma saker.
         </p>
+        <h2>Vad är ett repository?</h2>
+        <p>
+        Ett Git Repository (repo) är en samling filer som hör ihop, vanligen ett projekt. Ett repository skapar du 
+        varje gång du börjar med ett nytt projekt och du kan sedan enkelt skifta mellan olika repository när du 
+        hoppar mellan projekt. Ett repo existerar på din hårddisk och du gör ändringarna i ditt lokala repo på datan och 
+        skickar sedan upp dessa till fjärr-repot (master branchen).
+        </p>
       </div>
     );
   }
