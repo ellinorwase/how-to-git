@@ -4,3 +4,10 @@
     height: 100vh;
     border: 2px solid black;
 }
+
+.description>p{
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}

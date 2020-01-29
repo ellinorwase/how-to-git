@@ -1,0 +1,97 @@
+body{
+    display: flex;
+}
+.pics{
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.mainContent{
+    flex: 1 1 80%;
+    min-height: 100vh;
+    padding: 4%;
+}
+
+.portfolio{
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.portfolio-item{
+    background-color: rgba(189, 189, 189, 0.338);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small{
+    grid-row: span 1;    
+    grid-column: span 1;
+    background-image: url("../images/images-head.jpeg");    
+    background-size: contain;
+    background-repeat: no-repeat;   
+    background-position: center;
+
+ 
+
+}
+.medium1{
+    background-size: contain;
+    background-repeat: no-repeat;   
+    background-image: url("../images/git-commit-organized.jpg");
+    background-position: center;
+
+}
+
+.medium2{
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-image: url("../images/images.jpeg");
+ 
+}
+
+.medium{
+    grid-row: span 2;    
+    grid-column: span 2;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+     
+}
+
+.large{
+    grid-row: span 3;   
+    grid-column: span 3;   
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-image: url("../images/yeah-i-pull-girls-git-pull-mgiip-com-i-pull-35806681.png");
+
+}
+
+.wide{
+    grid-row: span 2;   
+    grid-column: span 1;     
+}
+
+.wide1{
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-image: url("../images/b4d1fc95e2b46d08efe0467cfece8f17ad8e37866267ea0241ab94d74e8c2333.jpg");
+}
+
+.tall{
+    grid-row: span 3;   
+    grid-column: span 2; 
+    background-image: url("../images/947254_43701ec264a243ce9480cb816e3f75da_mv2.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        
+}
