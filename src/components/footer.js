@@ -11,13 +11,13 @@ export class footer extends Component {
             <div className="row">
               <div className="col l6 s12">
                 <h5 className="white-text">Git på Svenska</h5>
-                <p className="grey-text text-lighten-4">Vill du lära sig mer? Klicka på länkarna brevid förfan</p>
+                <p className="grey-text text-lighten-4">Vill du lära dig mer? Klicka på länkarna brevid</p>
 
               </div>
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Bra länkar</h5>
                 <ul>
-                  <li><a className="grey-text text-lighten-3" target='_blank' href="https://git-scm.com/">gits webbsida</a></li>
+                  <li><a className="grey-text text-lighten-3" target='_blank' rel="noopener noreferrer" href="https://git-scm.com/">gits webbsida</a></li>
                   <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
                   <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
                   <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
@@ -27,10 +27,10 @@ export class footer extends Component {
           </div>
           <div className="footer-copyright">
             <div className="container">
-            © 2020 Ellinor Vase &amp; Frida Schoultz
+            2020 © Ellinor Vase &amp; Frida Schoultz
             <br></br>
-            <a className="grey-text text-lighten-4 right" target='_blank 'href="https://se.linkedin.com/in/ellinor-vase-38075716b">Ellinors LinkedIn</a> <br></br>
-            <a className="grey-text text-lighten-4 right" target='_ blank' href="https://www.linkedin.com/in/frida-schoultz-683162172/">Fridas LinkedIn</a>
+            <a className="grey-text text-lighten-4 right" target='_blank' rel="noopener noreferrer"href="https://se.linkedin.com/in/ellinor-vase-38075716b">Ellinors LinkedIn</a> <br></br>
+            <a className="grey-text text-lighten-4 right" target='_ blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/frida-schoultz-683162172/">Fridas LinkedIn</a>
             </div>
           </div>
         </footer>

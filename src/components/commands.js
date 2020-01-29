@@ -8,7 +8,7 @@ export class commands extends Component {
 
             <div className='wrapper1'>
                 <h2>Kommandon</h2>
-                <hr></hr>
+              
                 <div className='wrapper2'>
                     <div className='wrapper3'>
                         <div className='com'>git add .</div>
@@ -35,7 +35,7 @@ export class commands extends Component {
                     </div>
 
                 </div>
-                <hr></hr>
+               
 
             </div>
         )
