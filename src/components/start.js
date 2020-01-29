@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { ReactComponent as Logo } from '../images/dots.svg'
-import { ReactComponent as Line1 } from '../images/line1.svg'
-// import { ReactComponent as Line2 } from '../images/line2.svg'
 import "../css/start.css";
 
 export class start extends Component {
