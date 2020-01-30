@@ -36,8 +36,8 @@ export class commandsDiv extends Component {
   render() {
     return (
       <div>
-        <div className="wrapper-com3">
-          <div className="wrapper-com2">
+        <div className="wrapper-com2">
+          <div className="wrapper-com3">
             {this.state.commandsDesc.map((commandsDesc, index) => {
               return (
                 <button className="com" key={index}>
