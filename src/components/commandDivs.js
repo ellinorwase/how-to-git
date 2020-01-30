@@ -36,16 +36,17 @@ export class commandsDiv extends Component {
   render() {
     return (
       <div>
-        {this.state.commandsDesc.map((commandsDesc, index) => {
-          return (
-            <div className="wrapper-com3">
-
-            <button className="com" key={index}>
-              {commandsDesc.command}
-            </button>
-            </div>
-          );
-        })}
+        <div className="wrapper-com3">
+          <div className="wrapper-com2">
+            {this.state.commandsDesc.map((commandsDesc, index) => {
+              return (
+                <button className="com" key={index}>
+                  {commandsDesc.command}
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
     );
   }

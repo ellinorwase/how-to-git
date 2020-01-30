@@ -25,12 +25,10 @@ export class commands extends Component {
         <div className="com-sqr-2"></div>
         <div className="com-sqr-3"></div>
         <div className="com-sqr-4"></div>
-        <div className="wrapper-com2">
           {/* <div className="wrapper-com3"> */}
               <CommandDivs />
           {/* </div> */}
         </div>
-      </div>
     );
   }
 }
