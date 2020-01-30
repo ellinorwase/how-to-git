@@ -23,17 +23,15 @@
 
 .wrapper-com4{
     text-align: center;
-    /* display: flex; */
     width: 80%;
     margin-right:50px;
     margin: auto;
-    /* justify-content: space-between; */
    
 }
 
 .com{
     display: block;
-    font-size: 20px;
+    /* font-size: 20px; */
     border: 2px solid black ;
     padding: 8px;
     height:50px;
@@ -42,8 +40,7 @@
     margin: auto;
     margin-bottom: 10px;
     margin-top: 10px;
-    /* width:300px;
-    margin-left:50px; */
+    z-index: 9;
 }
 .com:hover{
     background-color: rgb(184, 184, 184);
