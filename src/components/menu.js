@@ -12,13 +12,13 @@ export class menu extends Component {
             <a href="./">Start</a>
           </li>
           <li>
-            <a href="#description1">Information</a>
+            <a href="#description-nav">Information</a>
           </li>
           <li>
             <a href="#commands2">Kommandon</a>
           </li>
           <li>
-            <a href="#conflicts3">Konflikter</a>
+            <a href="#conflicts-nav">Konflikter</a>
           </li>
           <li>
             <a href="./">Quiz</a>

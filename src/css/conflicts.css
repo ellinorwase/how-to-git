@@ -1,10 +1,27 @@
 .conflicts{
+    font-size: large;
     text-align: center;
     height: 100vh;
     border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
 .wrapper-con1{
-    
+    font-size: large;
+    display: flex;
+    width: 100%;
+}
+
+.wrapper-con2{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.wrapper-con3{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
 }
