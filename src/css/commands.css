@@ -1,19 +1,19 @@
 
-.wrapper1{
+.wrapper-com1{
     text-align: center;
     height: 200vh;
     border: 2px solid black;
   
 }
 
-.wrapper2{
+.wrapper-com2{
     text-align: center;
     /* display: flex; */
     width: 100%;
    
 }
 
-.wrapper3{
+.wrapper-com3{
     text-align: center;
     display: inline-table;
     display: grid;
@@ -21,7 +21,7 @@
     margin: 30px;
 }
 
-.wrapper4{
+.wrapper-com4{
     text-align: center;
     /* display: flex; */
     width: 80%;

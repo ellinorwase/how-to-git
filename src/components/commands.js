@@ -4,11 +4,11 @@ import "../css/commands.css";
 export class commands extends Component {
   render() {
     return (
-      <div className="wrapper1">
+      <div className="wrapper-com1">
         <div id="commands2"></div>
         <h2>Kommandon</h2>
         <hr></hr>
-        <div className="wrapper4">
+        <div className="wrapper-com4">
             <div className="total-sqr">
               <div className="transbox">
                 <p>
@@ -24,8 +24,8 @@ export class commands extends Component {
           <div className="com-sqr-2"></div>
           <div className="com-sqr-3"></div>
           <div className="com-sqr-4"></div>
-        <div className="wrapper2">
-          <div className="wrapper3">
+        <div className="wrapper-com2">
+          <div className="wrapper-com3">
             <div className="com">git add .</div>
             <div className="com">git commit -m 'meddelande här'</div>
             <div className="com">git status</div>
