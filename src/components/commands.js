@@ -2,14 +2,27 @@ import React, { Component } from "react";
 import "../css/commands.css";
 
 export class commands extends Component {
+    state = {
+        description: [
+           { id: '1', title: 'Förklaring 1' },
+           { id: '2', title: 'Förklaring 2' },
+           { id: '3', title: 'Förklaring 3' },
+           { id: '4', title: 'Förklaring 4' },
+           { id: '5', title: 'Förklaring 5' },
+           { id: '6', title: 'Förklaring 6' },
+           { id: '7', title: 'Förklaring 7' },
+        ],
+           displayQuestions: false
+   }
   render() {
+      
     return (
       <div className="wrapper1">
         <div id="commands2"></div>
         <h2>Kommandon</h2>
         <hr></hr>
         <div className="wrapper4">
-            <div className="total-sqr">
+            <div>
               <div className="transbox">
                 <p>
                   "Sed ut perspiciatis unde omnis iste natus error sit
