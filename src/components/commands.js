@@ -8,7 +8,7 @@ export class commands extends Component {
   constructor() {
     super();
     this.state = {
-        content: "Lär dig mer om git-kommandon"
+        content: "Lär dig mer om git-kommandon genom att klicka på de olika kommandon nedan"
     };
   }
   setExp = (commandData, expData) => {
