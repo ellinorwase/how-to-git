@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-import { ReactComponent as Logo } from '../images/dots.svg'
+import { ReactComponent as Logo } from "../images/dots.svg";
 import "../css/start.css";
 
 export class start extends Component {
   render() {
     return (
-        
-        <div className="start">
-            {/* <hr className="lines"></hr> */}
+      <div className="start">
+        <div id="start"></div>
 
         <h3 className="git-heading">GIT</h3>
-        {/* <div className="line1"></div> */}
         <div className="sqares">
           <div className="square1"></div>
           <div className="square2"></div>

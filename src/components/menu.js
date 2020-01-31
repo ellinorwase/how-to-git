@@ -9,7 +9,7 @@ export class menu extends Component {
       <div className="menu">
         <ul>
           <li>
-            <a href="./">Start</a>
+            <a href="#start">Start</a>
           </li>
           <li>
             <a href="#description-nav">Information</a>
