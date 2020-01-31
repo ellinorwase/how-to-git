@@ -1,10 +1,6 @@
 .App {
-  background-color: #fff;
-  /* background-image: url('../src/images/Path2.png'); */
-  background-image: url('../src/images/Path1.1.svg');
+  /* background-color: #fff; */
+  background-image: url('../src/images/Path1.2.svg');
   background-repeat: no-repeat; 
-  background-position: center;
-  /* background-attachment: scroll; */
-    /* background-size: cover; */
-  
+  background-position: center; 
 }
