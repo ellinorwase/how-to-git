@@ -1,6 +1,10 @@
 .App {
   /* background-color: #fff; */
-  background-image: url('../src/images/Path1.2.svg');
+  background-image: url('../src/images/Path1.5.svg');
   background-repeat: no-repeat; 
   background-position: center; 
+}
+
+html {
+  scroll-behavior: smooth;
 }

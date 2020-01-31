@@ -17,7 +17,7 @@ function App() {
 
       <Menu/>
 
-      <Start id="description1"/>
+      <Start/>
 
       {/* <Pics/> */}
 
@@ -26,7 +26,6 @@ function App() {
       <Commands />
       
       <Conflicts />
-
 
       <Footer />
 

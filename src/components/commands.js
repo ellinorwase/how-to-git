@@ -11,9 +11,10 @@ export class commands extends Component {
         content: "Lär dig mer om git-kommandon"
     };
   }
-  setExp = (data) => {
+  setExp = (commandData, expData) => {
     this.setState({
-        content: data
+        command: commandData,
+        content: expData
     })
   }
   render() {
@@ -26,6 +27,9 @@ export class commands extends Component {
         <div className="wrapper-com4">
           <div>
             <div className="transbox">
+              <h5>
+                {this.state.command}
+              </h5>
               <p>
                 {this.state.content}
               </p>
