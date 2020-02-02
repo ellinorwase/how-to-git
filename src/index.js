@@ -10,3 +10,15 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// class App extends React.Component{
+//     render(){
+//         return(
+//             <Router>
+//                 <Route>
+//                 <Route path="/quiz" component={Quiz} />
+//                 </Route>
+//             </Router>
+//         )
+//     }
+// }
