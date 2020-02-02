@@ -4,9 +4,10 @@
     position: absolute;
     z-index: 10;
 }
-ul{
+.menu>ul{
     padding: 0px;
     position: fixed;
+    /* background-color: #fff; */
 }
 
 .menu>ul>li{
