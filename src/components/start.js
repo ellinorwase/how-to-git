@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { ReactComponent as Logo } from "../images/dots.svg";
 import "../css/start.css";
+import gitpic1  from "../images/gitpic1.png";
 
 export class start extends Component {
   render() {
@@ -15,6 +16,7 @@ export class start extends Component {
           <div className="square3"></div>
           <div className="square4"></div>
           <div className="square5"></div>
+          <img className='gitpic1' src={gitpic1} alt="gitpic1" />;
         </div>
         <div className="mg-line">
           <h3>M</h3>

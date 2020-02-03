@@ -114,7 +114,7 @@ export class quiz extends Component {
           <div className="quiz-form" id="quiz">
             <h2>{questions}</h2>
             <br></br>
-            <span>{`Questions ${currentQuestion} out of ${QuizData.length -
+            <span>{`Fråga ${currentQuestion} av ${QuizData.length -
               1}`}</span>
 
             {options.map(option => (
