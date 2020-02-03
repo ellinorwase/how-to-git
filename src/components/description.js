@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../css/description.css";
+// import pic1 from './images/pic1.jpg';
+import pic3  from "../images/pic3.jpg";
 
 export class description extends Component {
   render() {
@@ -14,6 +16,7 @@ export class description extends Component {
           arkiv utan vem som helst kan skapa en egen kopia av ett repository.
           
         </p>
+        <img className='pic1' src={pic3} alt="pic3" />;
         <h2>Varför git?</h2>
         <p>
         Fördelarna med att ha ett distribuerade system är att alla som
