@@ -74,9 +74,12 @@ export class quiz extends Component {
   };
 
   renderBackButton = () => (
-    <div>
+    // <div className="back-to-page">
+      <button className="back-to-page">
+
       <Link to={"/"}>Tillbaka</Link>
-    </div>
+      </button>
+    // </div>
   );
   render() {
     const {
@@ -93,9 +96,10 @@ export class quiz extends Component {
           {this.renderBackButton()}
           <div className="quiz-box">
             <h2>Game Over</h2>
-            <p>Final score: {this.state.score} points</p>
+            {/* Kolla över detta */}
+            <p>Final score: {this.state.score} / {QuizData.length} poäng</p>
             <p>Rätt svar på frågorna var:</p>
-            <ul>
+            <ul className="right-answers">
               {QuizData.map((item, index) => (
                 <li className="right-options" key={index}>
                   {item.answer}
@@ -112,10 +116,9 @@ export class quiz extends Component {
         {this.renderBackButton()}
         <div className="quiz-box">
           <div className="quiz-form" id="quiz">
-            <h2>{questions}</h2>
+            <h4>{questions}</h4>
             <br></br>
-            <span>{`Questions ${currentQuestion} out of ${QuizData.length -
-              1}`}</span>
+            <span>{`Fråga ${currentQuestion + 1} av ${QuizData.length}`}</span>
 
             {options.map(option => (
               <p
@@ -132,6 +135,7 @@ export class quiz extends Component {
               <button
                 disabled={this.state.disabled}
                 onClick={this.nextQuestionHandler}
+                className="next-question"
               >
                 Nästa
               </button>
