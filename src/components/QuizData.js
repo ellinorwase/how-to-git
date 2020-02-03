@@ -28,5 +28,17 @@ export const QuizData = [
     options: ["2001", "2005", "2007"],
     answer: "2005"
   },
+  {
+    id: 5,
+    question: "Vad är det Engelska ordet som används när man pratar om sammanslagning inom git",
+    options: ["stash", "merge", "repo"],
+    answer: "merge"
+  },
+  {
+    id: 6,
+    question: "Vilka av följande företag har inte använt sig av GIT",
+    options: ["Netflix", "LinkedIn", "Något"],
+    answer: "Något"
+  },
 
 ];

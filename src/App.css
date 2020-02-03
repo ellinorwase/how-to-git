@@ -1,10 +1,16 @@
 .App {
   /* background-color: #fff; */
-  background-image: url('../src/images/path1.5.svg');
-  background-repeat: no-repeat; 
-  background-position: center; 
+  background-image: url("../src/images/path1.5.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Arapey", serif;
+  font-weight: normal;
 }
