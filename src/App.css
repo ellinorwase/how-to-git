@@ -11,14 +11,16 @@ html {
 
 p {
   line-height: 1.5;
-  font-family: "Arapey", serif;
-  font-weight: normal;
+  font-family: 'Arapey', serif;
+  /* font-weight: normal; */
+  font-weight: 100;
 }
 
 h2{
   font-size: 3.56rem;
   line-height: 110%;
   margin: 2.3733333333rem 0 1.424rem 0;
-  font-family: "Arapey", serif;
+  font-family: 'Arapey', serif;
+  font-weight: 100;
 
 }

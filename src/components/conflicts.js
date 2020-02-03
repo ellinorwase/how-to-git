@@ -11,7 +11,7 @@ export class conflicts extends Component {
                         <div className="con-sqr-4"></div>
                 <div id="conflicts-nav"></div>
                 <h2 className='h2-conflicts'>Konflikter</h2>
-                <h4>Git merge</h4>
+                <h3>Git merge</h3>
                 <div className='wrapper-con1'>
                     <div className='wrapper-con2'>
                         {/* <h5>Rubrik</h5> */}
