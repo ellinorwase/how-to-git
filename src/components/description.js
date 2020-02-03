@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../css/description.css";
 // import pic1 from './images/pic1.jpg';
 import pic3  from "../images/pic3.jpg";
-import pic1  from "../images/pic1.jpg";
+import pic1edit  from "../images/pic1edit.png";
 
 export class description extends Component {
   render() {
@@ -37,7 +37,7 @@ export class description extends Component {
         hoppar mellan projekt. Ett repo existerar på din hårddisk och du gör ändringarna i ditt lokala repo på datan och 
         skickar sedan upp dessa till fjärr-repot (master branchen).
         </p>
-        <img className='pic1' src={pic1} alt="pic1" />;
+        <img className='pic1edit' src={pic1edit} alt="pic1edit" />;
       </div>
     );
   }
