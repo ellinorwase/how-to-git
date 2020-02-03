@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { ReactComponent as Logo } from "../images/dots.svg";
 import "../css/start.css";
-import gitpic1  from "../images/gitpic1.png";
+import gitpic1  from "../images/gitpic2.png";
 
 export class start extends Component {
   render() {
