@@ -8,7 +8,6 @@ export class start extends Component {
     return (
       <div className="start">
         <div id="start"></div>
-
         <h3 className="git-heading">GIT</h3>
         <div className="sqares">
           <div className="square1"></div>
@@ -18,6 +17,7 @@ export class start extends Component {
           <div className="square5"></div>
           <img className='gitpic1' src={gitpic1} alt="gitpic1" />;
         </div>
+
         <div className="mg-line">
           <h3>M</h3>
           <h3>Å</h3>

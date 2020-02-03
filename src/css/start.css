@@ -101,6 +101,20 @@
   margin-top: 100px;
 }
 
+.quiz-text{
+  font-weight: 200;
+  font-size: large;
+  color: rgba(230, 11, 11, 0.849);
+  margin-top: 200px;
+}
+
+.quiz-btn{
+  font-weight: 200;
+  background-color: rgba(230, 11, 11, 0.849);
+  margin-right: 100px;
+}
+
+
 @media screen and (max-width: 600px) {
   .git-heading {
     position: relative;
