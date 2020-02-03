@@ -32,13 +32,15 @@ export class start extends Component {
           <h3>A</h3>
           <h3>?</h3>
         </div>
-        
-        <Logo className="dots" />
+        <div className="quiz-star-div">
+
+       <p className='quiz-text'>Vad vet du om Git och Github?<br></br>Ta reda på det genom att göra vårt quiz</p>
+       <button className='quiz-btn'>Quiz</button> 
+        </div>
+        {/* <Logo className="dots" /> */}
         {/* <Line1 className="line1" /> */}
         {/* <Line2 className="line2"/> */}
       
-       <p className='quiz-text'>Vad vet du om Git och Github?<br></br>Ta reda på det genom att göra vårt quiz</p>
-       <button className='quiz-btn'>Quiz</button> 
     
       </div>
     );
