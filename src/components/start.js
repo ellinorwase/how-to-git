@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../images/dots.svg";
 import "../css/start.css";
 import gitpic1  from "../images/gitpic2.png";
@@ -32,10 +33,15 @@ export class start extends Component {
           <h3>A</h3>
           <h3>?</h3>
         </div>
+        
         <div className="quiz-star-div">
 
        <p className='quiz-text'>Vad vet du om Git och Github?<br></br>Ta reda på det genom att göra vårt quiz</p>
-       <button className='quiz-btn'>Quiz</button> 
+
+       <button className='quiz-btn'>
+       <Link to={"/quiz"}>Quiz</Link>
+        </button> 
+
         </div>
         {/* <Logo className="dots" /> */}
         {/* <Line1 className="line1" /> */}
