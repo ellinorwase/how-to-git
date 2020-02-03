@@ -101,9 +101,9 @@ export class quiz extends Component {
             <p>Rätt svar på frågorna var:</p>
             <ul className="right-answers">
               {QuizData.map((item, index) => (
-                <li className="right-options" key={index}>
+                  <li className="right-options" key={index}>
                   {item.answer}
-                </li>
+                  </li>
               ))}
             </ul>
           </div>
