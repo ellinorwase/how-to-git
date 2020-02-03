@@ -1,11 +1,10 @@
 .conflicts{
-    font-size: large;
     text-align: center;
     /* height: 100vh; */
     border: 2px solid black;
     padding-left: 30px;
     padding-right: 30px;
-    z-index: auto;
+    z-index: auto; 
 
 }
 

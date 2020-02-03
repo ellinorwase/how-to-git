@@ -26,7 +26,7 @@ function App() {
             <Description />
             <Commands />
             <Conflicts />
-            <Footer />
+            {/* <Footer /> */}
           </Route>
         </Switch>
       </div>
