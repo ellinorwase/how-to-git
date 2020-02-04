@@ -27,9 +27,9 @@ export class commands extends Component {
         <div className="wrapper-com4">
           <div>
             <div className="transbox">
-              <h5>
+              <h3>
                 {this.state.command}
-              </h5>
+              </h3>
               <p>
                 {this.state.content}
               </p>
