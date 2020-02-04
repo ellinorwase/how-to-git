@@ -80,7 +80,7 @@ export class commandsDiv extends Component {
           id: "13",
           command: 'git branch -d "branch-namn"',
           exp:
-            "Används för att radera den gren som skrivs inom dess citationstecken"
+            "Används för att radera den gren som skrivs inom dess citationstecken. För att radera din gren, se till att stå i master grenen"
         },
         {
           id: "14",
