@@ -75,7 +75,7 @@ export class quiz extends Component {
 
   renderBackButton = () => (
     // <div className="back-to-page">
-      <button className="back-to-page">
+      <button className="quiz-button">
 
       <Link to={"/"}>Tillbaka</Link>
       </button>
@@ -133,15 +133,16 @@ export class quiz extends Component {
             ))}
             {currentQuestion < QuizData.length - 1 && (
               <button
+                key={"next"}
                 disabled={this.state.disabled}
                 onClick={this.nextQuestionHandler}
-                className="next-question"
+                className="quiz-button"
               >
                 Nästa
               </button>
             )}
             {currentQuestion === QuizData.length - 1 && (
-              <button onClick={this.finishHandler}>Räkna Ihop</button>
+              <button className="quiz-button" onClick={this.finishHandler}>Räkna Ihop</button>
             )}
 
             <p></p>

@@ -27,12 +27,12 @@
 
     .menu{
         margin-left: 10px;
-        margin-top: 40px;
         position: relative;
         z-index: 10;
     }
     .menu>ul>li{
         font-size: 100%;
         text-align: center;
+        display: flex;
     }
 }

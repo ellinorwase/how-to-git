@@ -10,6 +10,7 @@
     text-align: center;
     right: 0;
     background-color: #fff;
+    top: 0;
 }
 
 .mg-line > h3 {
@@ -133,9 +134,11 @@
 
 .quiz-star-div{
   text-align: center;
-  top: 65%;
-  position: absolute;
-  margin-left: 30%;
+    top: 65%;
+    position: absolute;
+    /* margin-left: 30%; */
+    margin: auto;
+    width: 100%;
 }
 
 
@@ -144,6 +147,44 @@
     position: relative;
     right: 0;
     top: 20%;
-    font-size: 120px;
+    font-size: 80px;
   }
+
+  .gitpic1 {
+    width: auto;
+    height: 80px;
+    margin-right: 90px;
+    margin-top: 80px;
+  }
+
+  .square2 {
+    height: 120px;
+    width: 110px;
+  }
+  .square3 {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .square4 {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .square5 {
+    height: 80px;
+    width: 80px;
+  }
+
+  .quiz-text{
+    font-weight: 200;
+    margin: 20px;
+    font-size: 20px;
+    color: rgba(230, 11, 11, 0.849);
+  }
+
+  .mg-line > h3 {
+    line-height: 1;
 }
+}
+

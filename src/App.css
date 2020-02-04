@@ -36,3 +36,16 @@ h4{
     margin: 1.52rem 0 .912rem 0;
     font-weight: 300;
 }
+
+@media screen and (max-width: 600px) {
+  p{
+
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  p{
+
+    font-size: 14px;
+  }
+}
