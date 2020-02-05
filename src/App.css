@@ -1,9 +1,23 @@
 .App {
   /* background-color: #fff; */
   background-image: url("../src/images/path1.5.svg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: local; */
   background-position: center;
+  animation-duration: 4s;
+  animation-name: bc;
+  -webkit-animation-name: bc;
 }
+
+@keyframes bc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 body{
   margin: 0;

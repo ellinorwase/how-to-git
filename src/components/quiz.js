@@ -36,12 +36,14 @@ export class quiz extends Component {
     this.setState({
       currentQuestion: this.state.currentQuestion + 1
     });
+    const score2 = score + 1
 
     if (userAnswer === answers) {
       this.setState({
-        score: score + 1
+        score: score2
       });
     }
+    console.log('score:', this.state.score)
   };
 
   componentDidUpdate(prevProps, prevState) {
