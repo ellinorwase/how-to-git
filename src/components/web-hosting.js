@@ -10,7 +10,7 @@ export class webHosting extends Component {
           I användningen av git är det vanligt att man använder sig av så
           kallade webbhotell för att lagra sin kod. Genom att skapa ett
           repository på ett webbhotell kan du lagra dina projekt internt eller
-          publik så kan du genom att använda git, skapa ett arbetsflöde där du
+          publik och med hjälp av att använda git, skapa ett arbetsflöde där du
           tillsammans med andra eller med dig själv, vidareutvecklar ditt
           projekt. Detta ger även möjlighet att ladda ner en fullständig kopia
           av ett projekt lokalt på sin dator. Vilken som helst av dessa kopior
