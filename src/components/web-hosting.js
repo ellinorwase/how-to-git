@@ -21,8 +21,16 @@ export class webHosting extends Component {
           arbete. VI kommer att fokusera på de 2 vanligaste webbhotellen, Github
           och Gitlab.
         </p>
-        <h2>Github & Gitlab</h2>
-        <p>info</p>
+        <div className="hosings-div">
+          <div className="github">
+            <h2>Github</h2>
+            <p>info</p>
+          </div>
+          <div className="gitlab">
+            <h2>Gitlab</h2>
+            <p>info</p>
+          </div>
+        </div>
       </div>
     );
   }
