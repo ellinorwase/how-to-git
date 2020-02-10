@@ -11,6 +11,7 @@ import Commands from "./components/commands";
 import Conflicts from "./components/conflicts";
 import Description from "./components/description";
 import Quiz from "./components/quiz";
+import WebHosting from "./components/web-hosting"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Menu />
             <Start />
             <Description />
+            <WebHosting />
             <Commands />
             <Conflicts />
             {/* <Footer /> */}

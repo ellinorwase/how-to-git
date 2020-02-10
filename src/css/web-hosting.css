@@ -1,0 +1,10 @@
+.webHosting-container{
+    height: 100vh;
+    text-align: center;
+}
+
+.webHosting-container>p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
