@@ -11,19 +11,19 @@ export class commandsDiv extends Component {
           id: "1",
           command: "git add .",
           exp:
-            "Används för att lägga till alla dina ändrade filer och gör dessa filer redo att commitas."
+            "Används för att lägga till alla dina ändrade filer och gör dessa filer redo att förbindas(commitas)."
         },
         {
           id: "2",
           command: 'git commit -m "meddelande här"',
           exp:
-            "Används för att commita dina filer med ett meddelande som gör det lättare att lokalisera och koppla ihop din ändring med att passande meddelande."
+            "Används för att förbinda dina filer med ett meddelande som gör det lättare att lokalisera och koppla ihop din ändring med att passande meddelande."
         },
         {
           id: "3",
           command: "git status",
           exp:
-            "Statuskommandot visar nuvarande status för din working directory. Detta låter dig att se vilka förändringar som har iscensatts samt vilka som inte har det. "
+            "Status-kommandot visar nuvarande status för din working directory. Detta låter dig att se vilka förändringar som har iscensatts samt vilka som inte har det. "
         },
         {
           id: "4",
@@ -62,7 +62,7 @@ export class commandsDiv extends Component {
           id: "10",
           command: 'git merge "branch-namn"',
           exp:
-            "Används när du vill slå samman en specifik gren med den gren du nuvarande befinner dig i"
+            "Används när du vill slå samman en specifik gren med den gren som du nuvarande befinner dig i."
         },
 
         {

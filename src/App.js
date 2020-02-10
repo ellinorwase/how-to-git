@@ -3,10 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Menu from "./components/menu";
 
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
+// import Pics from './components/pics'
 
 import Start from "./components/start";
-// import Pics from './components/pics'
 import Commands from "./components/commands";
 import Conflicts from "./components/conflicts";
 import Description from "./components/description";

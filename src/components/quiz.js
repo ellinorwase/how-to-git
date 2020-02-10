@@ -36,14 +36,12 @@ export class quiz extends Component {
     this.setState({
       currentQuestion: this.state.currentQuestion + 1
     });
-    const score2 = score + 1
 
     if (userAnswer === answers) {
       this.setState({
-        score: score2
+        score: score + 1
       });
     }
-    console.log('score:', this.state.score)
   };
 
   componentDidUpdate(prevProps, prevState) {
@@ -66,11 +64,15 @@ export class quiz extends Component {
       disabled: false
     });
   };
-
+  // Denna funktion måste ändras (+1)
   finishHandler = () => {
+    const { userAnswer, answers, score } = this.state;
+
+    
     if (this.state.currentQuestion === QuizData.length - 1) {
       this.setState({
-        quizEnd: true
+        quizEnd: true,
+        score: userAnswer === answers ? score + 1 : score
       });
     }
   };
@@ -122,9 +124,9 @@ export class quiz extends Component {
             <br></br>
             <span>{`Fråga ${currentQuestion + 1} av ${QuizData.length}`}</span>
 
-            {options.map(option => (
+            {options.map((option, index) => (
               <p
-                key={option.id}
+                key={index}
                 className={`alternative
             ${userAnswer === option ? "selected" : null}
             `}
@@ -135,7 +137,6 @@ export class quiz extends Component {
             ))}
             {currentQuestion < QuizData.length - 1 && (
               <button
-                key={"next"}
                 disabled={this.state.disabled}
                 onClick={this.nextQuestionHandler}
                 className="quiz-button"
