@@ -11,13 +11,13 @@ export const QuizData = [
   },
   {
     id: 2,
-    question: "Vem är skaparen bakom Git",
+    question: "Vem är skaparen bakom Git?",
     options: ["Ryan Dahl", "Linus Torvald", "Jacob Thornton"],
     answer: "Linus Torvald"
   },
   {
     id: 3,
-    question: "Vilket kommando används för att byta branch",
+    question: "Vilket kommando används för att byta branch?",
     options: ['git checkout -b "branch-namn"', 'git checkout "branch-namn"', 'git branch -m "branch-namn"'],
     answer: 'git checkout "branch-namn"'
   },
@@ -29,13 +29,13 @@ export const QuizData = [
   },
   {
     id: 5,
-    question: "Vad är det Engelska ordet som används när man pratar om sammanslagning inom git",
+    question: "Vad är det Engelska ordet som används när man pratar om sammanslagning inom git?",
     options: ["stash", "merge", "repo"],
     answer: "merge"
   },
   {
     id: 6,
-    question: "Vilka av följande företag har inte använt sig av GIT",
+    question: "Vilka av följande företag har inte använt sig av GIT?",
     options: ["Netflix", "LinkedIn", "Något"],
     answer: "Något"
   },
@@ -47,19 +47,19 @@ export const QuizData = [
   },
   {
     id: 8,
-    question: "Vilket av följande är inte en webbbaserad lagringstjänst för kodprojekt",
+    question: "Vilket av följande är inte en webbbaserad lagringstjänst för kodprojekt?",
     options: ["Bitbucket", "Netlify", "Gitlab"],
     answer: "Netlify"
   },
   {
     id: 9,
-    question: "Då det uppstår en konflikt till följa av en sammanslagning(merge) kommer du efterfrågas att välja mellan olika alternativ. Vilket av följande är inte ett.",
+    question: "Då det uppstår en konflikt till följa av en sammanslagning(merge) kommer du efterfrågas att välja mellan olika alternativ. Vilket av följande är inte ett?",
     options: ["Accept No Changes", "Accept Current Change", "Accept Both Changes"],
     answer: "Accept No Changes"
   },
   {
     id: 10,
-    question: "Vad skriver man för att skapa en nya branch (gren)",
+    question: "Vad skriver man för att skapa en nya branch (gren)?",
     options: ["git branch [ditt branch namn]", "git branch -b [branch namn]", "git branchname [ditt branch namn]"],
     answer: "git branch [ditt branch namn]"
   },
@@ -77,7 +77,7 @@ export const QuizData = [
   },
   {
     id: 13,
-    question: "Vad gör github pages ",
+    question: "Vad gör github pages?",
     options: ["Lanserar ditt repository", "En info sida om github", "Kommentars sida där man kan skriva om github"],
     answer: "Lanserar ditt repository"
   },
