@@ -158,7 +158,8 @@
   font-weight: 200;
   font-size: 30px;
   /* color: rgba(230, 11, 11, 0.849); */
-  color:goldenrod;
+  /* color:goldenrod; */
+  color: rgba(47, 79, 79, 0.671);
 }
 
 .quiz-btn{
@@ -166,7 +167,8 @@
   font-weight: 500;
   /* background-color: rgba(230, 11, 11, 0.849); */
   /* background-color: lightgrey; */
-  background-color: #f44336;
+  background-color: lightgrey;
+  color: red;
   width: 150px;
   height: 43px;
   border-radius: 12px;
@@ -183,7 +185,8 @@
 } 
 
 .quiz-btn>a{
-  color: black;
+  background-color: lightgrey;
+  color: red;
   text-decoration: none;
 }  
 
