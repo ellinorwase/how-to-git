@@ -68,7 +68,6 @@ export class quiz extends Component {
   finishHandler = () => {
     const { userAnswer, answers, score } = this.state;
 
-    
     if (this.state.currentQuestion === QuizData.length - 1) {
       this.setState({
         quizEnd: true,
@@ -79,10 +78,10 @@ export class quiz extends Component {
 
   renderBackButton = () => (
     // <div className="back-to-page">
-      <button className="quiz-button">
 
-      <Link to={"/"}>Tillbaka</Link>
-      </button>
+    <Link to={"/"}>
+      <button className="quiz-button">Tillbaka</button>
+    </Link>
     // </div>
   );
   render() {
@@ -101,13 +100,15 @@ export class quiz extends Component {
           <div className="quiz-box">
             <h2>Game Over</h2>
             {/* Kolla över detta */}
-            <p>Final score: {this.state.score} / {QuizData.length} poäng</p>
+            <p>
+              Final score: {this.state.score} / {QuizData.length} poäng
+            </p>
             <p>Rätt svar på frågorna var:</p>
             <ul className="right-answers">
               {QuizData.map((item, index) => (
-                  <li className="right-options" key={index}>
+                <li className="right-options" key={index}>
                   {item.answer}
-                  </li>
+                </li>
               ))}
             </ul>
           </div>
@@ -145,7 +146,9 @@ export class quiz extends Component {
               </button>
             )}
             {currentQuestion === QuizData.length - 1 && (
-              <button className="quiz-button" onClick={this.finishHandler}>Räkna Ihop</button>
+              <button className="quiz-button" onClick={this.finishHandler}>
+                Räkna Ihop
+              </button>
             )}
 
             <p></p>

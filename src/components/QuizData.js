@@ -22,7 +22,6 @@ export const QuizData = [
     answer: 'git checkout "branch-namn"'
   },
   {
-      //Ger fel
     id: 4,
     question: "När skapades Git?",
     options: ["2001", "2005", "2007"],
@@ -39,6 +38,42 @@ export const QuizData = [
     question: "Vilka av följande företag har inte använt sig av GIT",
     options: ["Netflix", "LinkedIn", "Något"],
     answer: "Något"
+  },
+  {
+    id: 7,
+    question: "Vilket år grundades GitLab?",
+    options: ["2011", "2009", "2008"],
+    answer: "2011"
+  },
+  {
+    id: 8,
+    question: "Vilket av följande är inte en webbbaserad lagringstjänst för kodprojekt",
+    options: ["Bitbucket", "Netlify", "Gitlab"],
+    answer: "Netlify"
+  },
+  {
+    id: 9,
+    question: "Då det uppstår en konflikt till följa av en sammanslagning(merge) kommer du efterfrågas att välja mellan olika alternativ. Vilket av följande är inte ett.",
+    options: ["Accept No Changes", "Accept Current Change", "Accept Both Changes"],
+    answer: "Accept No Changes"
+  },
+  {
+    id: 10,
+    question: "",
+    options: ["", "", ""],
+    answer: ""
+  },
+  {
+    id: 11,
+    question: "",
+    options: ["", "", ""],
+    answer: ""
+  },
+  {
+    id: 12,
+    question: "",
+    options: ["", "", ""],
+    answer: ""
   },
 
 ];

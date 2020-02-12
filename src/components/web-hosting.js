@@ -18,7 +18,7 @@ export class webHosting extends Component {
           repository i händelse av en krasch på den lokala datorn så har man
           alltid möjlighet att ladda ner den senaste koden från ditt webbhotell
           igen - detta säkerställer att en crash inte resulterar i förlorat
-          arbete. VI kommer att fokusera på de 2 vanligaste webbhotellen, Github
+          arbete. Vi kommer att fokusera på de 2 vanligaste webbhotellen, Github
           och Gitlab.
         </p>
         <div className="hosings-div">
