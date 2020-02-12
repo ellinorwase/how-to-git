@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../images/dots.svg";
 import "../css/start.css";
-import gitpic1 from "../images/gitpic2.png";
+import gitpic1 from "../images/gitpic1.1.png";
 
 export class start extends Component {
   render() {

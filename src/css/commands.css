@@ -63,7 +63,7 @@
     height: 40%;
     position: absolute; 
     transform: rotate(-20deg);
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(47, 79, 79, 0.521);
     margin-left: 130px;
     margin-top: 20px;
     z-index: -1;
@@ -74,7 +74,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: rgba(177, 22, 22, 0.555);
+    background-color: rgba(143, 188, 143, 0.637);
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 10px;
@@ -98,7 +98,7 @@
     position: absolute;
     width: 200px;
     height: 150px;
-    background-color:rgba(177, 22, 22, 0.555);
+    background-color:rgba(233, 150, 122, 0.623);
     margin-right: 40px;
     margin-top: 150px;
     z-index: -1;

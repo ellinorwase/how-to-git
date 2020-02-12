@@ -58,7 +58,7 @@
 .square2 {
   height: 250px;
   width: 240px;
-  background-color: rgba(109, 109, 109, 0.582);
+  background-color: rgba(47, 79, 79, 0.671);
   position: absolute;
   right: 14%;
   top: 18%;
@@ -67,7 +67,7 @@
 .square3 {
   height: 180px;
   width: 180px;
-  background-color: rgba(109, 109, 109, 0.575);
+  background-color: rgba(233, 150, 122, 0.63);
   position: absolute;
   right: 23%;
   top: 17%;
