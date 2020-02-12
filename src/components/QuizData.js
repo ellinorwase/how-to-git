@@ -59,21 +59,27 @@ export const QuizData = [
   },
   {
     id: 10,
-    question: "",
-    options: ["", "", ""],
-    answer: ""
+    question: "Vad skriver man för att skapa en nya branch (gren)",
+    options: ["git branch [ditt branch namn]", "git branch -b [branch namn]", "git branchname [ditt branch namn]"],
+    answer: "git branch [ditt branch namn]"
   },
   {
     id: 11,
-    question: "",
-    options: ["", "", ""],
-    answer: ""
+    question: "Hur gör du för att kopiera ett annat repository?",
+    options: ["git copy [repo namn]", "git copy [url för repo]", "git clone [url för repo]"],
+    answer: "git clone [url för repo]"
   },
   {
     id: 12,
-    question: "",
-    options: ["", "", ""],
-    answer: ""
+    question: "Vad skriver du när du vill hämta alla ändringar som gjorts i huvud repositoryn?",
+    options: ["git get [repo namn]", "git pull", "git pull [repo namn]"],
+    answer: "git pull"
+  },
+  {
+    id: 13,
+    question: "Vad gör github pages ",
+    options: ["Lanserar ditt repository", "En info sida om github", "Kommentars sida där man kan skriva om github"],
+    answer: "Lanserar ditt repository"
   },
 
 ];
