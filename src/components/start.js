@@ -43,7 +43,7 @@ export class start extends Component {
         </button> 
 
         </div>
-        {/* <Logo className="dots" /> */}
+        {/* <Logo className="dots" /> 
         {/* <Line1 className="line1" /> */}
         {/* <Line2 className="line2"/> */}
       
