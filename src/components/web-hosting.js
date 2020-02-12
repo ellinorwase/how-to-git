@@ -34,7 +34,8 @@ export class webHosting extends Component {
               Github erbjuder all den funktionalitet som du får med 
               de distribuerade versionshanteringssystemet och källkodhanteringsfunktionen (SCM), samt egna 
               funktioner såsom t.ex. github pages. Github pages är utformad för att vara värd för ditt 
-              repository (projektmapp) och på så sätt kan du via en genererad url länk lansera ditt projekt.
+              repository (projektmapp) och på så sätt kan du via en url länk, som består av ditt namn och ditt
+              repository namn, lansera ditt projekt.
              </p>
             
           </div>
