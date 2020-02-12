@@ -32,15 +32,15 @@ export class webHosting extends Component {
               gratiskonton såväl som betalkonton för privat bruk med obegränsat
               antal repositorys.
             </p>
-
-            <p>
-              Github erbjuder all den funktionalitet som du får med de
-              distribuerade versionshanteringssystemet och
-              källkodhanteringsfunktionen (SCM), samt egna funktioner såsom
-              t.ex. github pages. Github pages är utformad för att vara värd för
-              ditt repository (projektmapp) och på så sätt kan du via en
-              genererad url länk lansera ditt projekt.
-            </p>
+              
+             <p>
+              Github erbjuder all den funktionalitet som du får med 
+              de distribuerade versionshanteringssystemet och källkodhanteringsfunktionen (SCM), samt egna 
+              funktioner såsom t.ex. github pages. Github pages är utformad för att vara värd för ditt 
+              repository (projektmapp) och på så sätt kan du via en url länk, som består av ditt namn och ditt
+              repository namn, lansera ditt projekt.
+             </p>
+            
           </div>
           <div className="gitlab">
             <h2>Gitlab</h2>

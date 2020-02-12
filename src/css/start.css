@@ -168,7 +168,7 @@
   /* background-color: rgba(230, 11, 11, 0.849); */
   /* background-color: lightgrey; */
   background-color: lightgrey;
-  color: red;
+  color: darkred;
   width: 150px;
   height: 43px;
   border-radius: 12px;
@@ -185,18 +185,16 @@
   color: white;
 } 
 
-.quiz-btn>a{
+/* .quiz-btn>a{
   background-color: lightgrey;
-  color: red;
   text-decoration: none;
   
-}  
+}   */
 
 .quiz-star-div{
   text-align: center;
     top: 65%;
     position: absolute;
-    /* margin-left: 30%; */
     margin: auto;
     width: 100%;
 }
