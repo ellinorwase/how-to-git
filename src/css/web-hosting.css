@@ -18,8 +18,8 @@
   width: 50%;
 }
 
-.github>p{
-margin: 40px;
+.github > p {
+  margin: 40px;
 }
 
 .gitlab {
@@ -27,6 +27,49 @@ margin: 40px;
   width: 50%;
 }
 
-.gitlab>p{
-    margin: 40px;
-    }
+.gitlab > p {
+  margin: 40px;
+}
+
+.web-sqr-1 {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  transform: rotate(-20deg);
+  background-color: rgba(233, 150, 122, 0.623);
+  margin-left: 30%;
+  margin-top: -20px;
+  z-index: -1;
+}
+
+.web-sqr-2 {
+  transform: rotate(-30deg);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(47, 79, 79, 0.582);
+  margin-left: 28%;
+  margin-top: 12%;
+  z-index: -1;
+}
+
+.web-sqr-3 {
+  transform: rotate(-50deg);
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(194, 189, 189, 0.555);
+  z-index: -1;
+  margin-left: 22%;
+  margin-top: 8%;
+}
+
+.web-sqr-4 {
+    transform: rotate(-25deg);
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(47, 79, 79, 0.582);
+    margin-left: 20%;
+    z-index: -1;
+}

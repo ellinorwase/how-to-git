@@ -80,7 +80,7 @@ export class quiz extends Component {
     // <div className="back-to-page">
 
     <Link to={"/"}>
-      <button className="quiz-button">Tillbaka</button>
+      <button className="quiz-button">Tillbaka till start</button>
     </Link>
     // </div>
   );
@@ -107,6 +107,7 @@ export class quiz extends Component {
             <ul className="right-answers">
               {QuizData.map((item, index) => (
                 <li className="right-options" key={index}>
+                  {item.id}. &nbsp;
                   {item.answer}
                 </li>
               ))}

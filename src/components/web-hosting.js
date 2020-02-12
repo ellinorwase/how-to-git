@@ -24,23 +24,37 @@ export class webHosting extends Component {
         <div className="hosings-div">
           <div className="github">
             <h2>Github</h2>
-            <p>Github utvecklades av Tom Preston-Werner, Chris Wanstrath och PJ Hyett 2008 med hjälp av ramverket 
-              Ruby on Rails men är från och med 2018 ett dotterbolag till Microsoft. Github är en värdtjänst där 
-              du kan förvalta och utveckla din källkod och du kan skapa gratiskonton såväl som betalkonton för 
-              privat bruk med obegränsat antal repositorys.
+            <p>
+              Github utvecklades av Tom Preston-Werner, Chris Wanstrath och PJ
+              Hyett 2008 med hjälp av ramverket Ruby on Rails men är från och
+              med 2018 ett dotterbolag till Microsoft. Github är en värdtjänst
+              där du kan förvalta och utveckla din källkod och du kan skapa
+              gratiskonton såväl som betalkonton för privat bruk med obegränsat
+              antal repositorys.
             </p>
-              
-             <p>
-              Github erbjuder all den funktionalitet som du får med 
-              de distribuerade versionshanteringssystemet och källkodhanteringsfunktionen (SCM), samt egna 
-              funktioner såsom t.ex. github pages. Github pages är utformad för att vara värd för ditt 
-              repository (projektmapp) och på så sätt kan du via en genererad url länk lansera ditt projekt.
-             </p>
-            
+
+            <p>
+              Github erbjuder all den funktionalitet som du får med de
+              distribuerade versionshanteringssystemet och
+              källkodhanteringsfunktionen (SCM), samt egna funktioner såsom
+              t.ex. github pages. Github pages är utformad för att vara värd för
+              ditt repository (projektmapp) och på så sätt kan du via en
+              genererad url länk lansera ditt projekt.
+            </p>
           </div>
           <div className="gitlab">
             <h2>Gitlab</h2>
-            <p>GitLab är ett ukrainskt företag skapat av Dmitriy Zaporozhets och Valery Sizov och grundades 2011 som ett alternativ till GitHub. Gitlab är skrivet i Ruby och Go och har öppen källkod. </p>
+            <p>
+              GitLab är ett ukrainskt företag skapat av Dmitriy Zaporozhets och
+              Valery Sizov och grundades 2011 som ett alternativ till GitHub.
+              Gitlab är skrivet i Ruby och Go och har öppen källkod.{" "}
+            </p>
+            <div>
+              <div className="web-sqr-1"></div>
+              <div className="web-sqr-2"></div>
+              <div className="web-sqr-3"></div>
+              <div className="web-sqr-4"></div>
+            </div>
           </div>
         </div>
       </div>

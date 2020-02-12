@@ -16,7 +16,6 @@
 
 .wrapper-com3{
     text-align: center;
-    display: inline-table;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 30px;
@@ -124,7 +123,6 @@
     .com{
         font-size: 12px;
         padding: 0;
-        /* height: auto; */
     }
 
     .wrapper-com3{
