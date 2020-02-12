@@ -40,7 +40,7 @@ export class webHosting extends Component {
           </div>
           <div className="gitlab">
             <h2>Gitlab</h2>
-            <p>info</p>
+            <p>GitLab är ett ukrainskt företag skapat av Dmitriy Zaporozhets och Valery Sizov och grundades 2011 som ett alternativ till GitHub. Gitlab är skrivet i Ruby och Go och har öppen källkod. </p>
           </div>
         </div>
       </div>

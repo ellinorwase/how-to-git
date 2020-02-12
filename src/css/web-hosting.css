@@ -1,5 +1,4 @@
 .webHosting-container {
-  height: 100vh;
   text-align: center;
 }
 
@@ -17,15 +16,17 @@
 .github {
   text-align: center;
   width: 50%;
-  justify-content: space-around;
-  border: 2px solid black;
-  margin: 20px;
+}
+
+.github>p{
+margin: 40px;
 }
 
 .gitlab {
   text-align: center;
   width: 50%;
-  justify-content: space-around;
-  border: 2px solid black;
-  margin: 20px;
 }
+
+.gitlab>p{
+    margin: 40px;
+    }
