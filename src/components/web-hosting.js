@@ -24,7 +24,14 @@ export class webHosting extends Component {
         <div className="hosings-div">
           <div className="github">
             <h2>Github</h2>
-            <p>info</p>
+            <p>Github utvecklades av Tom Preston-Werner, Chris Wanstrath och PJ Hyett 2008 med hjälp av ramverket 
+              Ruby on Rails men är från och med 2018 ett dotterbolag till Microsoft. Github är en värdtjänst där 
+              du kan förvalta och utveckla din källkod och du kan skapa gratiskonton såväl som betalkonton för 
+              privat bruk med obegränsat antal repositorys .Github erbjuder all den funktionalitet som du får med 
+              de distribuerade versionshanteringssystemet och källkodhanteringsfunktionen (SCM), samt egna 
+              funktioner såsom t.ex. github pages. Github pages är utformad för att vara värd för ditt 
+              repository (projektmapp) och på så sätt kan du via en genererad url länk lansera ditt projekt.
+            </p>
           </div>
           <div className="gitlab">
             <h2>Gitlab</h2>
