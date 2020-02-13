@@ -18,31 +18,36 @@ export class conflicts extends Component {
             {/* <h5>Rubrik</h5> */}
             <p>
               Sammansättning (merge) och konflikter är en vanlig del av arbetet
-              när man sitter med git. Därför är det bra att veta lite om hur det
+              när man använder sig av git, därför är det bra att veta lite om hur det
               funkar och varför det kan uppstå. Git gör sammanslagningen av ditt
               projekt superlätt och för det mesta kommer git att förstå hur man
               automatiskt integrerar nya förändringar.
               <br></br>
               <br></br>
-              Konflikter i git uppstår för det mesta när två personer har gjort
+              Konflikter i git uppstår till exempel när två personer har gjort
               ändringar i samma fil eller när en utvecklare raderar en fil medan
-              en annan utvecklare gör ändringar i den. I dessa fall kan git inte
+              en annan utvecklare arbetar i den. I dessa fall kan git inte
               automatiskt bestämma vad som är korrekt och ber då den som
               genomför sammanslagningen (mergen) att fixa konflikterna innan
               denne skickar upp ändringarna till fjärr-repot (master branchen).
             </p>
+            <p>
+              Sitter du i din terminal då du genomför sammanslagningen(merge) så kommer
+              git att markera filen med rött och stoppa
+              sammanslagningsprocessen. Klickar man på filen så ser man markerat med rader
+              som är antingen <span style={{color:"rgba(47, 98, 141)"}}>blå</span> eller <span style={{color:"rgba(53, 115, 102)"}}>grön</span> markerade. Grönt betyder att detta
+              är de som för tillfället finns i filen i master branchen <span style={{color:"rgba(53, 115, 102)"}}>(current
+              change)</span> och det blåa <span style={{color:"rgba(47, 98, 141)"}}>(incoming change)</span> är det du suttit med i din
+              utvecklings branch och vill skicka upp till master branchen.
+              </p>
           </div>
           <div className="wrapper-con3">
             {/* <h5>Rubrik</h5> */}
+        <img className="conflictPic" src={conflictPic} alt="conflictPic" />
             <p>
-              Sitter du i din terminal och gör detta med git kommandon så kommer
-              git att markera filen med rött för konflikt och stoppa
-              sammanslagningsprocessen. Klickar man på filen så ser man då rader
-              som är antingen blå eller grön markerade. Grönt betyder att detta
-              är de som för tillfället finns i filen i master branchen (current
-              change) och det blåa (incoming change) är det du suttit med i din
-              utvecklings branch och vill skicka upp till master branchen.
-              <br></br>
+                Vid tillkomst av en konflikt kommer git att hjälpa dig välja mellan olika alternativ. Dessa alternativ är "Accept Current Change", "Accept Incoming Change", "Accept Both Changes" och "Compare Changes".
+            </p>
+              <p>
               Man kan också lösa konflikterna via exempelvis GitHub genom att
               skapa en så kallad Pull request. Precis som tidigare så känner git
               av konflikterna och stoppar sammanslagningsprocessen. Då får man
@@ -54,7 +59,6 @@ export class conflicts extends Component {
             </p>
           </div>
         </div>
-        <img className="conflictPic" src={conflictPic} alt="conflictPic" />
       </div>
     );
   }

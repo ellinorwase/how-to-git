@@ -16,8 +16,8 @@ export class description extends Component {
           Git är ett distribuerat versionshanteringssystem som skapades 2005 av
           Linus Torvald, som även har skapat operativsystemet Linux. Med git så kan
           utvecklare ladda upp och granska källkod och det finns inget centralt
-          arkiv utan vem som helst kan skapa en egen kopia av ett repository.
-          
+          arkiv utan vem som helst kan skapa en egen kopia av ett repository. <br></br>
+          Git hjälper oss att spåra olika versioner av våra dokument, att hålla historik över ändringar i dokumenten samt att uppmuntra att arbeta i team.      
         </p>
         </div>
         <img className='pic3' src={pic3} alt="pic3" />
