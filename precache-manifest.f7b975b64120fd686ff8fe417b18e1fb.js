@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa64d7ba570b834b3a2d66690ad003d9",
+    "revision": "a1d025acad485a77c3126d7adfb5e1a3",
     "url": "/how-to-git/index.html"
   },
   {
-    "revision": "9203f6baf4cb476ecd89",
-    "url": "/how-to-git/static/css/main.c30139f0.chunk.css"
+    "revision": "91216690f1aaee3fa227",
+    "url": "/how-to-git/static/css/main.af259aa9.chunk.css"
   },
   {
     "revision": "eefc0e367c4af8b191a3",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-to-git/static/js/2.77e7b378.chunk.js.LICENSE"
   },
   {
-    "revision": "9203f6baf4cb476ecd89",
-    "url": "/how-to-git/static/js/main.3b227ad2.chunk.js"
+    "revision": "91216690f1aaee3fa227",
+    "url": "/how-to-git/static/js/main.8240defd.chunk.js"
   },
   {
     "revision": "9a77daf676f8183c254f",
     "url": "/how-to-git/static/js/runtime-main.789bbcee.js"
   },
   {
-    "revision": "dce72d213b8075b7e707b108fbe74b68",
-    "url": "/how-to-git/static/media/bc-quiz3.dce72d21.svg"
+    "revision": "60aced8fce7a7264495e93433fc95a6e",
+    "url": "/how-to-git/static/media/bc-quiz2.60aced8f.svg"
   },
   {
     "revision": "77a276126369c16e0a5598185ff3b320",
