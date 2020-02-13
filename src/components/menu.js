@@ -6,9 +6,27 @@ import { Link } from "react-router-dom";
 
 //rce
 export class menu extends Component {
+
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY > 100;
+      const nav = document.getElementById('nav');
+      if(isTop){
+        nav.classList.add('scrolled');
+      } else{
+        nav.classList.remove('scrolled');
+      }
+    });
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scrolled');
+  }
+
   render() {
     return (
-        <div className="menu">
+      
+        <div id='nav' className="menu">
           <ul>
             <li>
               <a href="#start">Start</a>
@@ -17,7 +35,7 @@ export class menu extends Component {
               <a href="#description-nav">Information</a>
             </li>
             <li>
-              <a href="#commands2">Kommandon</a>
+              <a href="#commands-nav">Kommandon</a>
             </li>
             <li>
               <a href="#conflicts-nav">Konflikter</a>

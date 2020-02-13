@@ -5,12 +5,13 @@ import conflictPic from "../images/conflict-pic.png";
 export class conflicts extends Component {
   render() {
     return (
-      <div className="conflicts">
+      <div id='conflicts-nav' className="conflicts">
+          {/* <div id="conflicts-nav"></div> */}
         <div className="con-sqr-1"></div>
         <div className="con-sqr-2"></div>
         <div className="con-sqr-3"></div>
         <div className="con-sqr-4"></div>
-        <div id="conflicts-nav"></div>
+       
         <h2 className="h2-conflicts">Konflikter</h2>
         <h3 className="large">Git merge</h3>
         <div className="wrapper-con1">
