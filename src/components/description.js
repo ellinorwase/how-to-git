@@ -7,8 +7,8 @@ import pic1  from "../images/distributed-pic.png";
 export class description extends Component {
   render() {
     return (
-      <div className="description">
-         <div id="description-nav"></div>
+      <div id="description-nav" className="description">
+         {/* <div id="description-nav"></div> */}
         <h2>Vad är git?</h2>
         <div className="display-flex">
 
