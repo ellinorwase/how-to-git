@@ -1,134 +1,126 @@
-
-.wrapper-com1{
-    text-align: center;
-    height: auto;
-    /* border: 2px solid black; */
-    font-family: 'Arapey', serif;
-  
+.wrapper-com1 {
+  text-align: center;
+  height: auto;
+  /* border: 2px solid black; */
+  font-family: "Arapey", serif;
 }
 
-.wrapper-com2{
-    text-align: center;
-    /* display: flex; */
-    width: 100%;
-   
+.wrapper-com2 {
+  text-align: center;
+  /* display: flex; */
+  width: 100%;
 }
 
-.wrapper-com3{
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 30px;
+.wrapper-com3 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px;
 }
 
-.wrapper-com4{
-    text-align: center;
-    width: 80%;
-    margin-right:50px;
-    margin: auto;
-   
+.wrapper-com4 {
+  text-align: center;
+  width: 80%;
+  margin-right: 50px;
+  margin: auto;
 }
 
-.com{
-    display: block;
-    font-size: 14px;
-    border: 2px solid black ;
-    padding: 12px;
-    height:50px;
-    /* margin:10px; */
-    width:80%;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    z-index: 9;
-    background-color: white;
+.com {
+  display: block;
+  font-size: 14px;
+  border: 2px solid black;
+  padding: 12px;
+  height: 50px;
+  /* margin:10px; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  z-index: 9;
+  background-color: white;
 }
 
-.com>button{
-    font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+.com > button {
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, “Helvetica Neue”, sans-serif;
 }
 
-.com:focus{
-    background-color: rgb(255, 255, 255);
+.com:focus {
+  background-color: rgb(255, 255, 255);
 }
 
-.com:hover{
-    background-color: rgb(184, 184, 184);
+.com:hover {
+  background-color: rgb(184, 184, 184);
 }
 
-
-.com-sqr-1{
-    width: 25%;
-    height: 40%;
-    position: absolute; 
-    transform: rotate(-20deg);
-    background-color: rgba(47, 79, 79, 0.521);
-    margin-left: 130px;
-    margin-top: 20px;
-    z-index: -1;
+.com-sqr-1 {
+  width: 25%;
+  height: 40%;
+  position: absolute;
+  transform: rotate(-20deg);
+  background-color: rgba(47, 79, 79, 0.521);
+  margin-left: 130px;
+  margin-top: 20px;
+  z-index: -1;
 }
 
- .com-sqr-2{
-    transform: rotate(-30deg);
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: rgba(143, 188, 143, 0.637);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 10px;
-    margin-bottom: 300px;
-    margin: auto;
-    z-index: -1;
-} 
-
-.com-sqr-3{
-    transform: rotate(-60deg);
-    position: absolute;
-    width: 200px;
-    height: 150px;
-    background-color: rgba(194, 189, 189, 0.555); 
-    z-index: -1;
-    
-} 
-
-.com-sqr-4{
-    transform: rotate(-25deg);
-    position: absolute;
-    width: 200px;
-    height: 150px;
-    background-color:rgba(233, 150, 122, 0.623);
-    margin-right: 40px;
-    margin-top: 150px;
-    z-index: -1;
-} 
-
-.transbox{
-    display: block;
-    color: black;
-    z-index: 10;
-    opacity: 0,3;
-    background-color: rgb(255, 255, 255);
-    font-size: 18px;
-    border: 2px solid black ;
-    padding: 10px;
-    height:150px;
-    margin: auto;
-    margin-top: 40px;
-    width: 90%;
+.com-sqr-2 {
+  transform: rotate(-30deg);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(143, 188, 143, 0.637);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 300px;
+  margin: auto;
+  z-index: -1;
 }
 
+.com-sqr-3 {
+  transform: rotate(-60deg);
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(194, 189, 189, 0.555);
+  z-index: -1;
+}
+
+.com-sqr-4 {
+  transform: rotate(-25deg);
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(233, 150, 122, 0.623);
+  margin-right: 40px;
+  margin-top: 150px;
+  z-index: -1;
+}
+
+.transbox {
+  display: block;
+  color: black;
+  z-index: 10;
+  opacity: 0, 3;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 10px;
+  height: 150px;
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+}
 
 @media screen and (max-width: 600px) {
-    .com{
-        font-size: 12px;
-        padding: 0;
-    }
+  .com {
+    font-size: 12px;
+    padding: 0;
+  }
 
-    .wrapper-com3{
-        margin: 0;
-    }
+  .wrapper-com3 {
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
-
-

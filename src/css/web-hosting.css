@@ -65,11 +65,29 @@
 }
 
 .web-sqr-4 {
-    transform: rotate(-25deg);
-    position: absolute;
-    width: 200px;
-    height: 150px;
-    background-color: rgba(47, 79, 79, 0.582);
-    margin-left: 20%;
-    z-index: -1;
+  transform: rotate(-25deg);
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(47, 79, 79, 0.582);
+  margin-left: 20%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .web-boxes {
+    display: none;
+  }
+
+  .hosings-div {
+    display: grid;
+  }
+  .gitlab {
+    text-align: center;
+    width: 100%;
+  }
+  .github {
+    text-align: center;
+    width: 100%;
+  }
 }

@@ -32,24 +32,42 @@ export class webHosting extends Component {
               gratiskonton såväl som betalkonton för privat bruk med obegränsat
               antal repositorys.
             </p>
-              
-             <p>
-              Github erbjuder all den funktionalitet som du får med 
-              de distribuerade versionshanteringssystemet och källkodhanteringsfunktionen (SCM), samt egna 
-              funktioner såsom t.ex. github pages. Github pages är utformad för att vara värd för ditt 
-              repository (projektmapp) och på så sätt kan du via en url länk, som består av ditt namn och ditt
-              repository namn, lansera ditt projekt.
-             </p>
-            
+
+            <p>
+              Github erbjuder all den funktionalitet som du får med de
+              distribuerade versionshanteringssystemet och
+              källkodhanteringsfunktionen (SCM), samt egna funktioner såsom
+              t.ex. github pages. Github pages är utformad för att vara värd för
+              ditt repository (projektmapp) och på så sätt kan du via en url
+              länk, som består av ditt namn och ditt repository namn, lansera
+              ditt projekt.
+            </p>
           </div>
           <div className="gitlab">
             <h2>Gitlab</h2>
             <p>
               GitLab är ett ukrainskt företag skapat av Dmitriy Zaporozhets och
               Valery Sizov och grundades 2011 som ett alternativ till GitHub.
-              Gitlab är skrivet i Ruby och Go och har öppen källkod.{" "}
+              Gitlab är skrivet i Ruby och Go och har öppen källkod.
+              <br></br>
+              GitLab fungerar som en vanligt webbhotell, däribland användningen
+              av git-repository som hjälper till att lagra projekt, men med
+              tillägget att de tillämpar så kallade Continuous Integration(CI).
+              CI används för att interagera kod som förses av ett team med en
+              gemensam repository. Utvecklare delar den nya koden i en
+              merge(pull) request. Denna förfrågan triggar en så kallad pipeline
+              att bygga, validera och testa den nya koden innan man förenar
+              ändringarna i sitt repository. Detta ger alltså en snabb leverans
+              av feedback till utvecklare samt testning av kvaliteten.
+              Sammarbetet med Continuous Delivery (CD) säkerställer hämtningen
+              av CI-validerad kod till applikationen med hjälp av strukturerad
+              distributions pipelines. Tillsammans hjälper CI och CD ditt team
+              att påskynda ett resultat att leverera till kunderna. CI finns där
+              för att hjälpa till att fånga upp minsta bugg tidigt i
+              utvecklingen och CD hjälper till att flytta verifierad kod till
+              applikationen snabbare.
             </p>
-            <div>
+            <div className="web-boxes">
               <div className="web-sqr-1"></div>
               <div className="web-sqr-2"></div>
               <div className="web-sqr-3"></div>
