@@ -13,8 +13,8 @@ export class description extends Component {
         <div className="display-flex">
 
         <p>
-          Git är ett distribuerat versionshanteringssystem som är skapat av
-          Linus Torvald, som också skapat operativsystemet Linux. Med git så kan
+          Git är ett distribuerat versionshanteringssystem som skapades 2005 av
+          Linus Torvald, som även har skapat operativsystemet Linux. Med git så kan
           utvecklare ladda upp och granska källkod och det finns inget centralt
           arkiv utan vem som helst kan skapa en egen kopia av ett repository.
           

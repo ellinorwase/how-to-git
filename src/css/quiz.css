@@ -1,8 +1,9 @@
 .quiz-container {
-  background-color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  background-color: #2F4F4F;
+  background-color: rgb(255, 255, 255);
   /* background-image: url("../images/quiz-background.png"); */
-  background-image: url("../images/bc-quiz3.svg");
+  background-image: url("../images/bc-quiz2.svg");
   /* background-image: url("../images/bc-quiz-wb.png"); */
   background-size: cover;
   /* transform: rotate(90deg); */
@@ -51,8 +52,8 @@ ul {
 }
 
 .selected {
-  /* background: linear-gradient(to right, #74ebd5, #acb6e5) !important; */
-  background: #E9967A
+  background: #2F4F4F;
+  color: white;
 }
 
 .alternative {

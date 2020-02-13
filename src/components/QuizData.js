@@ -7,7 +7,7 @@ export const QuizData = [
       "Man lägger till en specifik fil och gör denna fil redo att commitas",
       "Man lägger till alla sina ändrade filer och gör dessa filer redo att commitas."
     ],
-    answer: "Man commitar alla sina filer"
+    answer: "Man lägger till alla sina ändrade filer och gör dessa filer redo att commitas."
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const QuizData = [
   },
   {
     id: 3,
-    question: "Vilket kommando används för att byta branch?",
+    question: "Vilket kommando används för att byta gren?",
     options: ['git checkout -b "branch-namn"', 'git checkout "branch-namn"', 'git branch -m "branch-namn"'],
     answer: 'git checkout "branch-namn"'
   },
@@ -29,22 +29,23 @@ export const QuizData = [
   },
   {
     id: 5,
-    question: "Vad är det Engelska ordet som används när man pratar om sammanslagning inom git?",
-    options: ["stash", "merge", "repo"],
+    question: "Vad är det engelska ordet som används när man pratar om sammanslagning inom git?",
+    options: ["merge", "stash", "repo"],
     answer: "merge"
   },
   {
     id: 6,
     question: "Vilka av följande företag har inte använt sig av GIT?",
-    options: ["Netflix", "LinkedIn", "Något"],
-    answer: "Något"
+    options: ["Netflix", "LinkedIn", "Ašanja"],
+    answer: "Ašanja"
   },
   {
     id: 7,
-    question: "Vilket år grundades GitLab?",
-    options: ["2011", "2009", "2008"],
-    answer: "2011"
+    question: "Vad skriver du när du vill hämta alla ändringar som gjorts i huvud repositoryn?",
+    options: ['git get "repo namn"', "git pull", 'git pull "repo namn"'],
+    answer: "git pull"
   },
+
   {
     id: 8,
     question: "Vilket av följande är inte en webbbaserad lagringstjänst för kodprojekt?",
@@ -60,20 +61,20 @@ export const QuizData = [
   {
     id: 10,
     question: "Vad skriver man för att skapa en nya branch (gren)?",
-    options: ["git branch [ditt branch namn]", "git branch -b [branch namn]", "git branchname [ditt branch namn]"],
-    answer: "git branch [ditt branch namn]"
+    options: ['git branch "branch namn"', 'git branch -b "branch namn"', 'git branchname "branch namn"'],
+    answer: 'git branch "branch namn"'
   },
   {
     id: 11,
     question: "Hur gör du för att kopiera ett annat repository?",
-    options: ["git copy [repo namn]", "git copy [url för repo]", "git clone [url för repo]"],
-    answer: "git clone [url för repo]"
+    options: ['git copy "repo namn"', 'git copy "url för repo"', 'git clone "url för repo"'],
+    answer: 'git clone "url för repo"'
   },
   {
     id: 12,
-    question: "Vad skriver du när du vill hämta alla ändringar som gjorts i huvud repositoryn?",
-    options: ["git get [repo namn]", "git pull", "git pull [repo namn]"],
-    answer: "git pull"
+    question: "Vilket år grundades GitLab?",
+    options: ["2011", "2009", "2008"],
+    answer: "2011"
   },
   {
     id: 13,
