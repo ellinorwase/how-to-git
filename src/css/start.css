@@ -51,8 +51,8 @@
   font-family: "Libre Baskerville", serif;
   z-index: 2;
   transform-style: preserve-3D;
-  transition: transform 3s linear;
-  animation: gitHeading 3s forwards;
+  transition: transform 4s linear;
+  animation: gitHeading 4s forwards;
 }
 
 
@@ -313,10 +313,11 @@
 
 @media screen and (max-width: 600px) {
   .git-heading {
-    position: relative;
+    /* position: relative; */
     right: 0;
     top: 20%;
     font-size: 80px;
+    position: absolute;
   }
 
   .gitpic1 {

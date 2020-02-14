@@ -73,11 +73,13 @@
   margin-left: 20%;
   z-index: -1;
 }
+@media screen and (max-width: 900px) {
 
+.web-boxes {
+  display: none;
+}
+}
 @media screen and (max-width: 600px) {
-  .web-boxes {
-    display: none;
-  }
 
   .hosings-div {
     display: grid;

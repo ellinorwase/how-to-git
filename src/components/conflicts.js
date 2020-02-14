@@ -22,8 +22,10 @@ export class conflicts extends Component {
               funkar och varför det kan uppstå. Git gör sammanslagningen av ditt
               projekt superlätt och för det mesta kommer git att förstå hur man
               automatiskt integrerar nya förändringar.
-         
+            </p>
+              
               <h4 className="large">Två typer av merge konflikter</h4>
+            <p>
               Merge konflikter i git uppstår till exempel när två personer har gjort
               ändringar i samma fil eller när en utvecklare raderar en fil medan
               en annan utvecklare arbetar i den. I dessa fall kan git inte
