@@ -24,32 +24,15 @@ export class menu extends Component {
        });
      }
 
-
-
   componentWillUnmount(){
     window.removeEventListener('scroll', window.addEventListener);
   }
-
-  // componentDidMount(){
-  //   window.addEventListener('scroll', () => {
-  //     const isTop = window.scrollY > 100;
-  //     const nav = document.getElementById('nav');
-  //     if(isTop){
-  //       nav.classList.add('scrolled');
-  //     } else{
-  //       nav.classList.remove('scrolled');
-  //     }
-  //   });
-  // }
-
-  // componentWillUnmount(){
-  //   window.removeEventListener('scrolled', window.addEventListener);
-  // }
 
   render() {
     return (
       
         <div  className={this.state.scrolled ? 'menu scrolled' : 'menu'}>
+
           <ul>
             <li>
               <a href="#start">Start</a>
