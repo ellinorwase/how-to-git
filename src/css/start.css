@@ -5,40 +5,39 @@
 }
 
 .mg-line {
-    border-left: 2px solid rgb(0, 0, 0);
-    height: 100vh;
-    position: absolute;
-    text-align: center;
-    right: 0;
-    background-color: #fff;
-    top: 0;
-    position: fixed;
-    z-index: 11;
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  background-color: #fff;
+  top: 0;
+  position: fixed;
+  z-index: 11;
 }
 
 .mg-line > h3 {
-    padding: 2px;
-    line-height: 1.5;
-    font-size: 20px;
-    font-weight: 100;
+  padding: 2px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 100;
 }
 
-.line1{
-    position: absolute;
-    left: -100px;
-    width: 100%;
-    height: 110%;
-    top: -10px;
+.line1 {
+  position: absolute;
+  left: -100px;
+  width: 100%;
+  height: 110%;
+  top: -10px;
 }
 /* .line2{
     position: absolute;
     z-index: -10;
 } */
 
-
-.dots{
-    margin-top: 73vh;
-    margin-left: 2%;
+.dots {
+  margin-top: 73vh;
+  margin-left: 2%;
 }
 
 .git-heading {
@@ -50,10 +49,86 @@
   font-weight: 400;
   margin: 0px;
   font-family: "Libre Baskerville", serif;
-  z-index: 20;
+  z-index: 2;
+  transform-style: preserve-3D;
+  transition: transform 3s linear;
+  animation: gitHeading 3s forwards;
 }
 
-.sqares {
+
+@keyframes gitHeading {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    transform: rotate(-30deg);
+    opacity: 0;
+    top: -20%;
+    /* right: 0%; */
+
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+    top: 3%;
+    right: 25%;
+  }
+}
+/* 
+.git-heading {
+  position: absolute;
+  font-size: 1200%;
+  font-weight: 400;
+  margin: 0px;
+  font-family: "Libre Baskerville", serif;
+  z-index: 2;
+  top: 3%;
+}
+
+.git-heading-G{
+  right: 40%;
+  transform-style: preserve-3D;
+  transition: transform 3s linear;
+  animation: G 3s forwards;
+  padding: 10px;
+
+}
+
+.git-heading-I{
+  right: 35%;
+  transform-style: preserve-3D;
+  transition: transform 4s linear;
+  animation: G 4s forwards;
+  padding: 10px;
+
+}
+
+.git-heading-T{
+  right: 24%;
+  transform-style: preserve-3D;
+  transition: transform 5s linear;
+  animation: G 5s forwards;
+  padding: 10px;
+}
+
+@keyframes G {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    transform: rotate(-30deg);
+    opacity: 0;
+    top: 0%;
+    right: 0%;
+
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+} */
+
+.squares {
   float: right;
   margin-right: 0%;
 }
@@ -65,6 +140,42 @@
   position: absolute;
   right: 14%;
   top: 18%;
+}
+
+.fadeOut {
+  transform-style: preserve-3D;
+  transition: transform 3s linear;
+  animation: move 3s forwards;
+}
+
+@keyframes move {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    transform: rotate(-30deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(10deg);
+    opacity: 0;
+    top: 200%;
+  }
+}
+
+.fadeBack {
+  /* transform-origin: top left; */
+  transform-style: preserve-3D;
+  transition: transform 2s linear;
+  animation: moveback 2s forwards;
+}
+@keyframes moveback {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .square3 {
@@ -135,7 +246,7 @@
   }
 }
 
-.gitpic1{
+.gitpic1 {
   width: auto;
   height: 200px;
   transform: rotate(10deg);
@@ -155,7 +266,7 @@
   }
 }
 
-.quiz-text{
+.quiz-text {
   font-weight: 200;
   font-size: 30px;
   /* color: rgba(230, 11, 11, 0.849); */
@@ -163,7 +274,7 @@
   color: rgba(47, 79, 79, 0.671);
 }
 
-.quiz-btn{
+.quiz-btn {
   font-size: x-large;
   font-weight: 500;
   /* background-color: rgba(230, 11, 11, 0.849); */
@@ -180,11 +291,11 @@
   font-weight: 300;
 }
 
- .quiz-btn:hover {
+.quiz-btn:hover {
   /* background-color: #f44336; */
   background-color: lightgrey;
   color: white;
-} 
+}
 
 /* .quiz-btn>a{
   background-color: lightgrey;
@@ -192,14 +303,13 @@
   
 }   */
 
-.quiz-star-div{
+.quiz-star-div {
   text-align: center;
-    top: 65%;
-    position: absolute;
-    margin: auto;
-    width: 100%;
+  top: 65%;
+  position: absolute;
+  margin: auto;
+  width: 100%;
 }
-
 
 @media screen and (max-width: 600px) {
   .git-heading {
@@ -224,18 +334,18 @@
     height: 80px;
     width: 80px;
   }
-  
+
   .square4 {
     height: 30px;
     width: 30px;
   }
-  
+
   .square5 {
     height: 80px;
     width: 80px;
   }
 
-  .quiz-text{
+  .quiz-text {
     font-weight: 200;
     margin: 20px;
     font-size: 20px;
@@ -244,6 +354,5 @@
 
   .mg-line > h3 {
     line-height: 1;
+  }
 }
-}
-

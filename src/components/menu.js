@@ -27,7 +27,7 @@ export class menu extends Component {
 
 
   componentWillUnmount(){
-    window.removeEventListener('scroll',   window.addEventListener);
+    window.removeEventListener('scroll', window.addEventListener);
   }
 
   // componentDidMount(){

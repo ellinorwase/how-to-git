@@ -9,7 +9,7 @@
     transition: 0.25s;
 }
 .menu>ul{
-    padding: 0px;
+    padding: 20px;
     position: fixed;
     background-color:transparent;
     width: 100%;
@@ -37,6 +37,8 @@
 .scrolled>ul{
     position: fixed;
     background-color: rgb(255, 255, 255);
+    z-index: 21;
+    padding: 5px;
 }
 
 @media screen and (max-width: 600px) {

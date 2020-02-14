@@ -5,16 +5,42 @@ import "../css/start.css";
 import gitpic1 from "../images/gitpic1.1.png";
 
 export class start extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+      scrolled: false,
+    };
+  }
+
+  componentDidMount(){
+         window.addEventListener('scroll', () => {
+         const isTop = window.scrollY < 10;
+         if(isTop !==true){
+           this.setState({ scrolled:true });
+         } else{
+          this.setState({ scrolled:false });
+       }
+       });
+     }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll', window.addEventListener);
+  }
+
   render() {
     return (
       <div className="start">
         <div id="start"></div>
         <h3 className="git-heading">GIT</h3>
-        <div className="sqares">
-          <div className="square1"></div>
-          <div className="square2"></div>
-          <div className="square3"></div>
-          <div className="square4"></div>
+        {/* <h3 className="git-heading git-heading-G">G</h3>
+        <h3 className="git-heading git-heading-I">I</h3>
+        <h3 className="git-heading git-heading-T">T</h3> */}
+        <div className="squares">
+          <div className='square1'></div>
+          <div className={this.state.scrolled ? 'square2 fadeOut' : 'square2 fadeBack'}></div>
+          <div className={this.state.scrolled ? 'square3 fadeOut2' : 'square3 fadeBack'}></div>
+          <div className={this.state.scrolled ? 'square4 fadeOut3' : 'square4 fadeBack'}></div>
           <div className="square5"></div>
           <img className="gitpic1" src={gitpic1} alt="gitpic1" />;
         </div>
