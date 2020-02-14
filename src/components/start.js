@@ -8,26 +8,28 @@ export class start extends Component {
 
   constructor(){
     super();
+    this.startScroll = this.startScroll.bind(this)
     this.state = {
       scrolled: false,
     };
   }
 
-  componentDidMount(){
-         window.addEventListener('scroll', () => {
-         const isTop = window.scrollY < 10;
+  startScroll (){
+    const isTop = window.scrollY < 100;
          if(isTop !==true){
            this.setState({ scrolled:true });
          } else{
           this.setState({ scrolled:false });
        }
-       });
+  }
+
+  componentDidMount(){
+         window.addEventListener('scroll', this.startScroll);
      }
 
   componentWillUnmount(){
-    window.removeEventListener('scroll', window.addEventListener);
+    window.removeEventListener('scroll', this.startScroll);
   }
-
   render() {
     return (
       <div className="start">
