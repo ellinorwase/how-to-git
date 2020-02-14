@@ -7,13 +7,13 @@
   z-index: auto;
 }
 
-.height-20{
+.height-20 {
   height: 20px;
 }
 
 .large {
   font-size: 25px;
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-weight: bold;
 }
 
@@ -105,5 +105,13 @@
 
   .wrapper-con3 {
     width: auto;
+  }
+
+  .conflictPic {
+    width: 70%;
+  }
+
+  .conflictPic2 {
+    width: 70%;
   }
 }

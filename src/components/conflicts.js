@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../css/conflicts.css";
 import conflictPic from "../images/conflict-pic.png";
+import conflictPic2 from "../images/conflict-pic.svg";
 
 export class conflicts extends Component {
   render() {
@@ -48,6 +49,7 @@ export class conflicts extends Component {
               stabiliseras med antingen git reset, git stash, git checkout eller
               git commit.
             </p>
+            <img className="conflictPic2" src={conflictPic2} alt="conflictPic2" />
           </div>
           <div className="wrapper-con3">
             <h4 className="large">Lösningar</h4>
