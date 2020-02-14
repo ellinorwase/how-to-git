@@ -9,6 +9,7 @@ export class description extends Component {
     return (
       <div id="description-nav" className="description">
          {/* <div id="description-nav"></div> */}
+         <div className="height-20"></div>
         <h2>Vad är git?</h2>
         <div className="display-flex">
 

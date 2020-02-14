@@ -6,6 +6,10 @@
     font-family: 'Arapey', serif;
 }
 
+.height-20{
+    height: 20px;
+  }
+
 .description>p{
     font-size: 20px;
     margin-left: 40px;

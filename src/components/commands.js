@@ -20,8 +20,9 @@ export class commands extends Component {
   render() {
 
     return (
-      <div id="commands-nav" className="wrapper-com1">
+      <div id="commands-nav"className="wrapper-com1">
         {/* <div id="commands-nav"></div> */}
+        <div className="height-20"></div>
         <h2>Kommandon</h2>
         <hr></hr>
         <div className="wrapper-com4">

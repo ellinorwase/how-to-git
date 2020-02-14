@@ -7,6 +7,10 @@
   z-index: auto;
 }
 
+.height-20{
+  height: 20px;
+}
+
 .large {
   font-size: 25px;
   font-family: 'Arapey', serif;

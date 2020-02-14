@@ -5,6 +5,10 @@
   font-family: "Arapey", serif;
 }
 
+.height-20{
+  height: 20px;
+}
+
 .wrapper-com2 {
   text-align: center;
   /* display: flex; */
