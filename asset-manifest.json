@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/how-to-git/static/css/main.c8c214a0.chunk.css",
-    "main.js": "/how-to-git/static/js/main.0f540e75.chunk.js",
-    "main.js.map": "/how-to-git/static/js/main.0f540e75.chunk.js.map",
+    "main.css": "/how-to-git/static/css/main.a18deeff.chunk.css",
+    "main.js": "/how-to-git/static/js/main.35a03468.chunk.js",
+    "main.js.map": "/how-to-git/static/js/main.35a03468.chunk.js.map",
     "runtime-main.js": "/how-to-git/static/js/runtime-main.789bbcee.js",
     "runtime-main.js.map": "/how-to-git/static/js/runtime-main.789bbcee.js.map",
-    "static/js/2.77e7b378.chunk.js": "/how-to-git/static/js/2.77e7b378.chunk.js",
-    "static/js/2.77e7b378.chunk.js.map": "/how-to-git/static/js/2.77e7b378.chunk.js.map",
+    "static/js/2.b978b17e.chunk.js": "/how-to-git/static/js/2.b978b17e.chunk.js",
+    "static/js/2.b978b17e.chunk.js.map": "/how-to-git/static/js/2.b978b17e.chunk.js.map",
     "index.html": "/how-to-git/index.html",
-    "precache-manifest.4a4f4c90bd439418916adf3458fa549f.js": "/how-to-git/precache-manifest.4a4f4c90bd439418916adf3458fa549f.js",
+    "precache-manifest.978ba2efd87b95aa0b83c16998bd971d.js": "/how-to-git/precache-manifest.978ba2efd87b95aa0b83c16998bd971d.js",
     "service-worker.js": "/how-to-git/service-worker.js",
-    "static/css/main.c8c214a0.chunk.css.map": "/how-to-git/static/css/main.c8c214a0.chunk.css.map",
-    "static/js/2.77e7b378.chunk.js.LICENSE": "/how-to-git/static/js/2.77e7b378.chunk.js.LICENSE",
+    "static/css/main.a18deeff.chunk.css.map": "/how-to-git/static/css/main.a18deeff.chunk.css.map",
+    "static/js/2.b978b17e.chunk.js.LICENSE": "/how-to-git/static/js/2.b978b17e.chunk.js.LICENSE",
     "static/media/quiz.css": "/how-to-git/static/media/bc-quiz2.60aced8f.svg",
     "static/media/conflict-pic.png": "/how-to-git/static/media/conflict-pic.77a27612.png",
+    "static/media/conflict-pic.svg": "/how-to-git/static/media/conflict-pic.c59bee13.svg",
     "static/media/distributed-pic.png": "/how-to-git/static/media/distributed-pic.2bd97136.png",
-    "static/media/dots.7ec8fcf9.svg": "/how-to-git/static/media/dots.7ec8fcf9.svg",
     "static/media/gitpic1.1.png": "/how-to-git/static/media/gitpic1.1.ccf2dc83.png",
     "static/media/App.css": "/how-to-git/static/media/path1.7.db766df6.svg",
     "static/media/pic3edit.png": "/how-to-git/static/media/pic3edit.3ae95938.png"
   },
   "entrypoints": [
     "static/js/runtime-main.789bbcee.js",
-    "static/js/2.77e7b378.chunk.js",
-    "static/css/main.c8c214a0.chunk.css",
-    "static/js/main.0f540e75.chunk.js"
+    "static/js/2.b978b17e.chunk.js",
+    "static/css/main.a18deeff.chunk.css",
+    "static/js/main.35a03468.chunk.js"
   ]
 }

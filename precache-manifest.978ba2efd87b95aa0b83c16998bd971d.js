@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a63bf4e4a90b557264eadbc9252a046a",
+    "revision": "487e257c1619e395adf9c0356096b24d",
     "url": "/how-to-git/index.html"
   },
   {
-    "revision": "1f35f4ae4122ff7bb170",
-    "url": "/how-to-git/static/css/main.c8c214a0.chunk.css"
+    "revision": "cec0a6efca179516e301",
+    "url": "/how-to-git/static/css/main.a18deeff.chunk.css"
   },
   {
-    "revision": "eefc0e367c4af8b191a3",
-    "url": "/how-to-git/static/js/2.77e7b378.chunk.js"
+    "revision": "37035b00c426239128ac",
+    "url": "/how-to-git/static/js/2.b978b17e.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/how-to-git/static/js/2.77e7b378.chunk.js.LICENSE"
+    "url": "/how-to-git/static/js/2.b978b17e.chunk.js.LICENSE"
   },
   {
-    "revision": "1f35f4ae4122ff7bb170",
-    "url": "/how-to-git/static/js/main.0f540e75.chunk.js"
+    "revision": "cec0a6efca179516e301",
+    "url": "/how-to-git/static/js/main.35a03468.chunk.js"
   },
   {
     "revision": "9a77daf676f8183c254f",
     "url": "/how-to-git/static/js/runtime-main.789bbcee.js"
+  },
+  {
+    "revision": "9ce76bfa76118b1d00835b3ac6cadac0",
+    "url": "/how-to-git/static/media/bc-pink5.9ce76bfa.svg"
   },
   {
     "revision": "60aced8fce7a7264495e93433fc95a6e",
@@ -32,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-to-git/static/media/conflict-pic.77a27612.png"
   },
   {
-    "revision": "2bd9713691975eda3a7868be54da0baf",
-    "url": "/how-to-git/static/media/distributed-pic.2bd97136.png"
+    "revision": "c59bee131ba1c7d355f5ad3665987f06",
+    "url": "/how-to-git/static/media/conflict-pic.c59bee13.svg"
   },
   {
-    "revision": "7ec8fcf9b91a511c87ece683e06d6b3c",
-    "url": "/how-to-git/static/media/dots.7ec8fcf9.svg"
+    "revision": "2bd9713691975eda3a7868be54da0baf",
+    "url": "/how-to-git/static/media/distributed-pic.2bd97136.png"
   },
   {
     "revision": "ccf2dc831431dbae0553ca9c6b7a683b",
