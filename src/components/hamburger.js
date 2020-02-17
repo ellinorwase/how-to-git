@@ -5,7 +5,7 @@ import "../css/hamburger.css";
 export class hamburger extends Component {
     render() {
         return (
-            <div>
+            <div className="fixed">
                 <nav>
                     <div id="menuToggle">
  
@@ -19,12 +19,11 @@ export class hamburger extends Component {
     
                     <ul id="menu">
                     <a href="#start"><li>Start</li></a>
-                    <a href="##description-nav"><li>Information</li></a>
+                    <a href="#description-nav"><li>Information</li></a>
                     <a href="#commands-nav"><li>Kommandon</li></a>
                     <a href="#conflicts-nav"><li>Konflikter</li></a>
                     <li>
-
-                    <Link to={"/quiz"}>Quiz</Link>
+                    <Link to={"/how-to-git/quiz"}>Quiz</Link>
                     </li>
                     </ul>
                     </div>

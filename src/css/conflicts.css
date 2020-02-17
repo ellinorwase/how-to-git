@@ -1,7 +1,5 @@
 .conflicts {
   text-align: center;
-  /* height: 100vh; */
-  /* border: 2px solid black; */
   padding-left: 30px;
   padding-right: 30px;
   z-index: auto;
@@ -43,8 +41,6 @@
 .con-sqr-1 {
   width: 200px;
   height: 250px;
-  /* width: 20%;
-    height: 35%; */
   position: absolute;
   transform: rotate(-20deg);
   background-color: rgba(233, 150, 122, 0.623);
@@ -65,7 +61,6 @@
   margin-bottom: 300px;
   margin: auto;
   z-index: -1;
-  /* margin: 0; */
 }
 
 .con-sqr-3 {
@@ -74,8 +69,6 @@
   width: 200px;
   height: 150px;
   background-color: rgba(194, 189, 189, 0.555);
-  /* margin-right: 90px; */
-  /* margin-left: -190px; */
   z-index: -1;
 }
 
@@ -113,8 +106,4 @@
   .conflictPic {
     width: 70%;
   }
-
-  /* .conflictPic2 {
-    width: 70%;
-  } */
 }

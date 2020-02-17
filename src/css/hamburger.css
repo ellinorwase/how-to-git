@@ -9,6 +9,11 @@ input {
 
 @media screen and (max-width: 800px) {
 
+  .fixed{
+    position: fixed;
+    z-index: 100;
+  }
+
 #menuToggle
 {
   position: fixed;

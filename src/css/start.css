@@ -164,7 +164,6 @@
 }
 
 .fadeBack {
-  /* transform-origin: top left; */
   transform-style: preserve-3D;
   transition: transform 2s linear;
   animation: moveback 2s forwards;
@@ -269,16 +268,12 @@
 .quiz-text {
   font-weight: 200;
   font-size: 30px;
-  /* color: rgba(230, 11, 11, 0.849); */
-  /* color:goldenrod; */
   color: rgba(47, 79, 79, 0.671);
 }
 
 .quiz-btn {
   font-size: x-large;
   font-weight: 500;
-  /* background-color: rgba(230, 11, 11, 0.849); */
-  /* background-color: lightgrey; */
   background-color: lightgrey;
   color: darkred;
   width: 150px;
@@ -313,7 +308,6 @@
 
 @media screen and (max-width: 600px) {
   .git-heading {
-    /* position: relative; */
     right: 0;
     top: 20%;
     font-size: 80px;

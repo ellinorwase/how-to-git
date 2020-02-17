@@ -16,10 +16,10 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/quiz">
+          <Route path="/how-to-git/quiz">
             <Quiz />
           </Route>
-          <Route path="/">
+          <Route path="/how-to-git/">
             <Menu />
             <Hamburger/>
             <Start />

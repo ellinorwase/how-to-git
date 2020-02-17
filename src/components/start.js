@@ -44,7 +44,7 @@ export class start extends Component {
           <div className="square3"></div>
           <div className="square4"></div>
           <div className="square5"></div>
-          <img className="gitpic1" src={gitpic1} alt="gitpic1" />;
+          <img className="gitpic1" src={gitpic1} alt="gitpic1" />
         </div>
 
         <div className="mg-line">
@@ -68,7 +68,7 @@ export class start extends Component {
             vårt quiz
           </p>
 
-          <Link to={"/quiz"}>
+          <Link to={"/how-to-git/quiz"}>
             <button className="quiz-btn">Quiz</button>
           </Link>
         </div>

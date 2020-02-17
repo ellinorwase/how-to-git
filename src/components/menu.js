@@ -49,7 +49,7 @@ export class menu extends Component {
               <a href="#conflicts-nav">Konflikter</a>
             </li>
             <li>
-              <Link to={"/quiz"}>Quiz</Link>
+              <Link to={"/how-to-git/quiz"}>Quiz</Link>
             </li>
           </ul>
         </div>
