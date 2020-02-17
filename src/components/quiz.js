@@ -64,7 +64,6 @@ export class quiz extends Component {
       disabled: false
     });
   };
-  // Denna funktion måste ändras (+1)
   finishHandler = () => {
     const { userAnswer, answers, score } = this.state;
 
@@ -77,12 +76,9 @@ export class quiz extends Component {
   };
 
   renderBackButton = () => (
-    // <div className="back-to-page">
-
-    <Link to={"/"}>
+    <Link to={"/how-to-git/"}>
       <button className="quiz-button">Tillbaka till start</button>
     </Link>
-    // </div>
   );
   render() {
     const {
@@ -99,7 +95,6 @@ export class quiz extends Component {
           {this.renderBackButton()}
           <div className="quiz-box">
             <h2>Game Over</h2>
-            {/* Kolla över detta */}
             <p>
               Final score: {this.state.score} / {QuizData.length} poäng
             </p>
@@ -151,7 +146,6 @@ export class quiz extends Component {
                 Räkna Ihop
               </button>
             )}
-
             <p></p>
           </div>
         </div>

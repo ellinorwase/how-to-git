@@ -39,8 +39,8 @@ export class start extends Component {
         <div className="squares">
           <div className='square1'></div>
           <div className={this.state.scrolled ? 'square2 fadeOut' : 'square2 fadeBack'}></div>
-          <div className={this.state.scrolled ? 'square3 fadeOut2' : 'square3 fadeBack'}></div>
-          <div className={this.state.scrolled ? 'square4 fadeOut3' : 'square4 fadeBack'}></div>
+          <div className="square3"></div>
+          <div className="square4"></div>
           <div className="square5"></div>
           <img className="gitpic1" src={gitpic1} alt="gitpic1" />;
         </div>

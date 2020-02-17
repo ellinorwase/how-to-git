@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../css/menu.css";
-// import Quiz from "../components/quiz";
 //npm install --save react-router-dom
 import { Link } from "react-router-dom";
 
@@ -32,7 +31,6 @@ export class menu extends Component {
     return (
       
         <div  className={this.state.scrolled ? 'menu scrolled' : 'menu'}>
-
           <ul>
             <li>
               <a href="#start">Start</a>
@@ -47,7 +45,6 @@ export class menu extends Component {
               <a href="#conflicts-nav">Konflikter</a>
             </li>
             <li>
-              {/* <Link to={"/quiz"} activeClassName={"active"}>Quiz</Link> */}
               <Link to={"/quiz"}>Quiz</Link>
             </li>
           </ul>

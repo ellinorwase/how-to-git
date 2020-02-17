@@ -9,7 +9,6 @@ export class conflicts extends Component {
       <div id="conflicts-nav" className="conflicts">
         <div className="height-20"></div>
 
-        {/* <div id="conflicts-nav"></div> */}
         <div className="con-sqr-1"></div>
         <div className="con-sqr-2"></div>
         <div className="con-sqr-3"></div>
@@ -73,7 +72,6 @@ export class conflicts extends Component {
               till master branchen.
             </p>
 
-            {/* <h5>Rubrik</h5> */}
             <img className="conflictPic" src={conflictPic} alt="conflictPic" />
             <p>
               Vid tillkomst av en konflikt kommer git att hjälpa dig välja
