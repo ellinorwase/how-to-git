@@ -5,26 +5,30 @@ import { Link } from "react-router-dom";
 
 //rce
 export class menu extends Component {
+
   constructor(){
     super();
+    this.menuScroll = this.menuScroll.bind(this)
     this.state = {
       scrolled: false,
     };
   }
 
-  componentDidMount(){
-         window.addEventListener('scroll', () => {
-         const isTop = window.scrollY < 100;
+  menuScroll (){
+    const isTop = window.scrollY < 100;
          if(isTop !==true){
            this.setState({ scrolled:true });
          } else{
           this.setState({ scrolled:false });
        }
-       });
+  }
+
+  componentDidMount(){
+         window.addEventListener('scroll', this.menuScroll);
      }
 
   componentWillUnmount(){
-    window.removeEventListener('scroll', window.addEventListener);
+    window.removeEventListener('scroll', this.menuScroll);
   }
 
   render() {
