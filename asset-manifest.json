@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/how-to-git/static/css/main.02e4ada3.chunk.css",
+    "main.css": "/how-to-git/static/css/main.70923af7.chunk.css",
     "main.js": "/how-to-git/static/js/main.46cc5e72.chunk.js",
     "main.js.map": "/how-to-git/static/js/main.46cc5e72.chunk.js.map",
     "runtime-main.js": "/how-to-git/static/js/runtime-main.789bbcee.js",
@@ -8,9 +8,9 @@
     "static/js/2.df736b36.chunk.js": "/how-to-git/static/js/2.df736b36.chunk.js",
     "static/js/2.df736b36.chunk.js.map": "/how-to-git/static/js/2.df736b36.chunk.js.map",
     "index.html": "/how-to-git/index.html",
-    "precache-manifest.06cc7050494d4eb0f709e8320c4f3dd0.js": "/how-to-git/precache-manifest.06cc7050494d4eb0f709e8320c4f3dd0.js",
+    "precache-manifest.dd4deebc73e667546259471da2233584.js": "/how-to-git/precache-manifest.dd4deebc73e667546259471da2233584.js",
     "service-worker.js": "/how-to-git/service-worker.js",
-    "static/css/main.02e4ada3.chunk.css.map": "/how-to-git/static/css/main.02e4ada3.chunk.css.map",
+    "static/css/main.70923af7.chunk.css.map": "/how-to-git/static/css/main.70923af7.chunk.css.map",
     "static/js/2.df736b36.chunk.js.LICENSE": "/how-to-git/static/js/2.df736b36.chunk.js.LICENSE",
     "static/media/quiz.css": "/how-to-git/static/media/bc-quiz2.60aced8f.svg",
     "static/media/conflict-pic.svg": "/how-to-git/static/media/conflict-pic.4f85f967.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.789bbcee.js",
     "static/js/2.df736b36.chunk.js",
-    "static/css/main.02e4ada3.chunk.css",
+    "static/css/main.70923af7.chunk.css",
     "static/js/main.46cc5e72.chunk.js"
   ]
 }
