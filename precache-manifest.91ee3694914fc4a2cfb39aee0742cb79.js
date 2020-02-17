@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "487e257c1619e395adf9c0356096b24d",
+    "revision": "2ff5475a110652f195737d30bb2ed666",
     "url": "/how-to-git/index.html"
   },
   {
-    "revision": "cec0a6efca179516e301",
-    "url": "/how-to-git/static/css/main.a18deeff.chunk.css"
+    "revision": "135da89fbc35e4184efe",
+    "url": "/how-to-git/static/css/main.4f4ba93a.chunk.css"
   },
   {
-    "revision": "37035b00c426239128ac",
-    "url": "/how-to-git/static/js/2.b978b17e.chunk.js"
+    "revision": "2b8a1b5b01f7189edb73",
+    "url": "/how-to-git/static/js/2.df736b36.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/how-to-git/static/js/2.b978b17e.chunk.js.LICENSE"
+    "url": "/how-to-git/static/js/2.df736b36.chunk.js.LICENSE"
   },
   {
-    "revision": "cec0a6efca179516e301",
-    "url": "/how-to-git/static/js/main.35a03468.chunk.js"
+    "revision": "135da89fbc35e4184efe",
+    "url": "/how-to-git/static/js/main.4ef26c1c.chunk.js"
   },
   {
     "revision": "9a77daf676f8183c254f",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-to-git/static/media/bc-quiz2.60aced8f.svg"
   },
   {
-    "revision": "77a276126369c16e0a5598185ff3b320",
-    "url": "/how-to-git/static/media/conflict-pic.77a27612.png"
+    "revision": "4f85f967e9e356c4cc0d0b5345939c07",
+    "url": "/how-to-git/static/media/conflict-pic.4f85f967.svg"
   },
   {
-    "revision": "c59bee131ba1c7d355f5ad3665987f06",
-    "url": "/how-to-git/static/media/conflict-pic.c59bee13.svg"
+    "revision": "77a276126369c16e0a5598185ff3b320",
+    "url": "/how-to-git/static/media/conflict-pic.77a27612.png"
   },
   {
     "revision": "2bd9713691975eda3a7868be54da0baf",

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="709px" height="246px" viewBox="0 0 709 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="721px" height="246px" viewBox="0 0 721 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group">
+            <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="643.5" y="22.5" width="77" height="46"></rect>
+            <rect id="Rectangle-Copy-3" stroke="#979797" fill="#FFFFFF" x="643.5" y="99.5" width="77" height="46"></rect>
+            <rect id="Rectangle-Copy-4" stroke="#979797" fill="#FFFFFF" x="643.5" y="185.5" width="77" height="46"></rect>
             <rect id="Rectangle-Copy" stroke="#979797" fill-opacity="0.123471467" fill="#C3ECFF" x="0.5" y="82.5" width="591" height="81"></rect>
             <rect id="Rectangle" stroke="#979797" fill-opacity="0.312584918" fill="#8FBC8F" x="0.5" y="0.5" width="591" height="81"></rect>
             <rect id="Rectangle-Copy-2" stroke="#979797" fill-opacity="0.351279438" fill="#2F4F4F" x="0.5" y="164.5" width="591" height="81"></rect>
@@ -46,10 +49,14 @@
             </g>
             <path d="M604.431818,41 L641.568182,41" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
             <path d="M604.431818,123 L641.568182,123" id="Line-4-Copy" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M503.431818,51 L522,51" id="Line-4-Copy-3" stroke="#979797" stroke-linecap="square"></path>
             <path d="M604.431818,205 L641.568182,205" id="Line-4-Copy-2" stroke="#979797" stroke-linecap="square"></path>
             <text id="Branch-A" font-family="Baskerville" font-size="18" font-weight="normal" fill="#000000">
                 <tspan x="656.15918" y="44">Branch </tspan>
                 <tspan x="676.404785" y="64">A</tspan>
+            </text>
+            <text id="App.js" font-family="Baskerville" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="525.196777" y="55">App.js</tspan>
             </text>
             <text id="Branch-B" font-family="Baskerville" font-size="18" font-weight="normal" fill="#000000">
                 <tspan x="656.65918" y="208">Branch </tspan>
