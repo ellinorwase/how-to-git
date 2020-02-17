@@ -60,7 +60,7 @@ export const QuizData = [
   },
   {
     id: 10,
-    question: "Vad skriver man för att skapa en nya branch (gren)?",
+    question: "Vad skriver man för att endast skapa en nya branch (gren)?",
     options: ['git branch "branch namn"', 'git branch -b "branch namn"', 'git branchname "branch namn"'],
     answer: 'git branch "branch namn"'
   },
