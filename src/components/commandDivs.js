@@ -40,7 +40,8 @@ export class commandsDiv extends Component {
         {
           id: "6",
           command: "git pull",
-          exp: "Används för att hämta hem de senaste ändringarna från ditt fjärr-repo."
+          exp:
+            "Används för att hämta hem de senaste ändringarna från ditt fjärr-repo."
         },
         {
           id: "7",
@@ -51,12 +52,14 @@ export class commandsDiv extends Component {
         {
           id: "8",
           command: 'git checkout -b "namnet på branchen"',
-          exp: "Används för att skapa en lokal gren samt förflyttar sig till den grenen."
+          exp:
+            "Används för att skapa en lokal gren samt förflyttar sig till den grenen."
         },
         {
           id: "9",
           command: 'git checkout "branch-namn"',
-          exp: "Används då man vill förflytta sig till den tillgängliga grenen med det namnet"
+          exp:
+            "Används då man vill förflytta sig till den tillgängliga grenen med det namnet"
         },
         {
           id: "10",
@@ -95,18 +98,21 @@ export class commandsDiv extends Component {
         {
           id: "16",
           command: 'git stash save "stash-namn" && git stash',
-          exp: "Används för att spara undan dina nuvarande ändringar tillfälligt. Detta är bra om du behöver byta branch och inte vill förlora dina ändringar."
+          exp:
+            "Används för att spara undan dina nuvarande ändringar tillfälligt. Detta är bra om du behöver byta branch och inte vill förlora dina ändringar."
         },
         {
           id: "17",
-          command: 'git stash list',
-          exp: "Används för att lista alla dina ändringar som du sparat(stashat)."
+          command: "git stash list",
+          exp:
+            "Används för att lista alla dina ändringar som du sparat(stashat)."
         },
         {
           id: "18",
-          command: 'git stash pop',
-          exp: " Används då du vill återställa dina ändringar som du har 'stashat'"
-        },
+          command: "git stash pop",
+          exp:
+            " Används då du vill återställa dina ändringar som du har 'stashat'"
+        }
       ]
     };
   }
@@ -127,7 +133,12 @@ export class commandsDiv extends Component {
                 <button
                   className="com"
                   key={index}
-                  onClick={() => this.displayExplanation(commandsDesc.command, commandsDesc.exp)}
+                  onClick={() =>
+                    this.displayExplanation(
+                      commandsDesc.command,
+                      commandsDesc.exp
+                    )
+                  }
                 >
                   {commandsDesc.command}
                 </button>

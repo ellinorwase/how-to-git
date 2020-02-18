@@ -1,8 +1,5 @@
 .App {
-  /* background-color: #fff; */
   background-image: url("../src/images/path1.7.svg");
-  /* background-repeat: no-repeat; */
-  /* background-attachment: local; */
   background-position: center;
   animation-duration: 5s;
   animation-name: bc;
@@ -18,8 +15,7 @@
   }
 }
 
-
-body{
+body {
   margin: 0;
 }
 
@@ -29,37 +25,33 @@ html {
 
 p {
   line-height: 1.5;
-  font-family: 'Arapey', serif;
-  /* font-weight: normal; */
+  font-family: "Arapey", serif;
   font-weight: 100;
   font-size: 20px;
 }
 
-h2{
+h2 {
   font-size: 3.56rem;
   line-height: 110%;
   margin: 2.3733333333rem 0 1.424rem 0;
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-weight: 100;
-
 }
 
-h4{
-    font-size: 2.28rem;
-    line-height: 110%;
-    margin: 1.52rem 0 .912rem 0;
-    font-weight: 300;
+h4 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
-  p{
-
+  p {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 400px) {
-  p{
-
+  p {
     font-size: 14px;
   }
 }

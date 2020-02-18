@@ -8,8 +8,8 @@ import Commands from "./components/commands";
 import Conflicts from "./components/conflicts";
 import Description from "./components/description";
 import Quiz from "./components/quiz";
-import WebHosting from "./components/web-hosting"
-import Hamburger from "./components/hamburger"
+import WebHosting from "./components/web-hosting";
+import Hamburger from "./components/hamburger";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           </Route>
           <Route path="/how-to-git/">
             <Menu />
-            <Hamburger/>
+            <Hamburger />
             <Start />
             <Description />
             <WebHosting />

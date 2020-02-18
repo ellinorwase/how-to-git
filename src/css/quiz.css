@@ -17,7 +17,6 @@
 
 .quiz-box {
   width: 50%;
-  /* height: 70%; */
   margin: auto;
   border: 2px solid #2f4f4f;
   padding: 50px;
@@ -75,7 +74,6 @@ ul {
 
 .quiz-button {
   color: black;
-  /* background-color: rgb(0, 0, 0); */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 35px;
@@ -107,18 +105,10 @@ ul {
     height: auto;
     padding: 0px 20px 0 20px;
   }
-  .quiz-form>h4{
+  .quiz-form > h4 {
     font-size: 1.28rem;
     padding-top: 20%;
   }
-
-  /* .back-to-page{
-        border: 2px solid rgb(255, 255, 255);
-        width: 0;
-        height: 0;
-        margin: 0;
-        border: none;
-    } */
 
   .right-answers {
     grid-template-columns: repeat(1, 1fr);

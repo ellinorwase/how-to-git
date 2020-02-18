@@ -1,7 +1,6 @@
 .start {
   height: 100vh;
   position: relative;
-  /* border: 2px solid black; */
 }
 
 .mg-line {
@@ -30,10 +29,6 @@
   height: 110%;
   top: -10px;
 }
-/* .line2{
-    position: absolute;
-    z-index: -10;
-} */
 
 .dots {
   margin-top: 73vh;
@@ -55,7 +50,6 @@
   animation: gitHeading 4s forwards;
 }
 
-
 @keyframes gitHeading {
   0% {
     opacity: 0;
@@ -64,8 +58,6 @@
     transform: rotate(-30deg);
     opacity: 0;
     top: -20%;
-    /* right: 0%; */
-
   }
   100% {
     transform: rotate(0deg);
@@ -287,16 +279,9 @@
 }
 
 .quiz-btn:hover {
-  /* background-color: #f44336; */
   background-color: lightgrey;
   color: white;
 }
-
-/* .quiz-btn>a{
-  background-color: lightgrey;
-  text-decoration: none;
-  
-}   */
 
 .quiz-star-div {
   text-align: center;

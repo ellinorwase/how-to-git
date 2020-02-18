@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { QuizData } from "./QuizData";
 import "../css/quiz.css";
-// import Menu from "../components/menu";
 import { Link } from "react-router-dom";
 
 export class quiz extends Component {
@@ -11,8 +10,6 @@ export class quiz extends Component {
     options: [],
     score: 0,
     disabled: true
-    // myAnswer: null,
-    // isEnd: false
   };
 
   loadQuiz = () => {

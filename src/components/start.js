@@ -5,30 +5,29 @@ import "../css/start.css";
 import gitpic1 from "../images/gitpic1.1.png";
 
 export class start extends Component {
-
-  constructor(){
+  constructor() {
     super();
-    this.startScroll = this.startScroll.bind(this)
+    this.startScroll = this.startScroll.bind(this);
     this.state = {
-      scrolled: false,
+      scrolled: false
     };
   }
 
-  startScroll (){
+  startScroll() {
     const isTop = window.scrollY < 100;
-         if(isTop !==true){
-           this.setState({ scrolled:true });
-         } else{
-          this.setState({ scrolled:false });
-       }
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
   }
 
-  componentDidMount(){
-         window.addEventListener('scroll', this.startScroll);
-     }
+  componentDidMount() {
+    window.addEventListener("scroll", this.startScroll);
+  }
 
-  componentWillUnmount(){
-    window.removeEventListener('scroll', this.startScroll);
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.startScroll);
   }
   render() {
     return (
@@ -39,8 +38,12 @@ export class start extends Component {
         <h3 className="git-heading git-heading-I">I</h3>
         <h3 className="git-heading git-heading-T">T</h3> */}
         <div className="squares">
-          <div className='square1'></div>
-          <div className={this.state.scrolled ? 'square2 fadeOut' : 'square2 fadeBack'}></div>
+          <div className="square1"></div>
+          <div
+            className={
+              this.state.scrolled ? "square2 fadeOut" : "square2 fadeBack"
+            }
+          ></div>
           <div className="square3"></div>
           <div className="square4"></div>
           <div className="square5"></div>
@@ -72,9 +75,6 @@ export class start extends Component {
             <button className="quiz-btn">Quiz</button>
           </Link>
         </div>
-        {/* <Logo className="dots" /> 
-        {/* <Line1 className="line1" /> */}
-        {/* <Line2 className="line2"/> */}
       </div>
     );
   }
