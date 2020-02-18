@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/how-to-git/static/css/main.2165f651.chunk.css",
-    "main.js": "/how-to-git/static/js/main.4bd1ea56.chunk.js",
-    "main.js.map": "/how-to-git/static/js/main.4bd1ea56.chunk.js.map",
+    "main.css": "/how-to-git/static/css/main.837bcdd8.chunk.css",
+    "main.js": "/how-to-git/static/js/main.59947612.chunk.js",
+    "main.js.map": "/how-to-git/static/js/main.59947612.chunk.js.map",
     "runtime-main.js": "/how-to-git/static/js/runtime-main.789bbcee.js",
     "runtime-main.js.map": "/how-to-git/static/js/runtime-main.789bbcee.js.map",
     "static/js/2.df736b36.chunk.js": "/how-to-git/static/js/2.df736b36.chunk.js",
     "static/js/2.df736b36.chunk.js.map": "/how-to-git/static/js/2.df736b36.chunk.js.map",
     "index.html": "/how-to-git/index.html",
-    "precache-manifest.b66f3f8e5c51951680f9647cbce37190.js": "/how-to-git/precache-manifest.b66f3f8e5c51951680f9647cbce37190.js",
+    "precache-manifest.4e2207a8799af535598db03e27468fdc.js": "/how-to-git/precache-manifest.4e2207a8799af535598db03e27468fdc.js",
     "service-worker.js": "/how-to-git/service-worker.js",
-    "static/css/main.2165f651.chunk.css.map": "/how-to-git/static/css/main.2165f651.chunk.css.map",
+    "static/css/main.837bcdd8.chunk.css.map": "/how-to-git/static/css/main.837bcdd8.chunk.css.map",
     "static/js/2.df736b36.chunk.js.LICENSE": "/how-to-git/static/js/2.df736b36.chunk.js.LICENSE",
     "static/media/quiz.css": "/how-to-git/static/media/bc-quiz2.60aced8f.svg",
     "static/media/conflict-pic.svg": "/how-to-git/static/media/conflict-pic.4f85f967.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.789bbcee.js",
     "static/js/2.df736b36.chunk.js",
-    "static/css/main.2165f651.chunk.css",
-    "static/js/main.4bd1ea56.chunk.js"
+    "static/css/main.837bcdd8.chunk.css",
+    "static/js/main.59947612.chunk.js"
   ]
 }
